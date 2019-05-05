@@ -1,0 +1,35 @@
+div{
+	margin: auto;
+	max-width: 1000px;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+
+img{
+	width: 250px;
+}
+
+@keyframes heart{
+	
+	50%{
+		width: 300px
+		}
+	60%{
+		width: 270px;
+		}
+	70%{
+		width: 300px;
+	}
+	75%{
+		width: 270px;
+	}
+	80%{
+		width: 300px;
+	}
+}
+	
+div img{
+	animation: heart 3s ease infinite;
+}
