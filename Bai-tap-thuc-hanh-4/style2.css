@@ -1,0 +1,39 @@
+body{
+	margin: auto;
+	padding: 0;
+}
+
+
+.wrapper {
+	max-width: 100%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto auto auto;
+	grid-gap: 15px;
+}
+
+.box{
+	height: 400px;
+}
+
+#red{
+	background-color: red;
+	/*Căn chữ vào giữa khối*/
+	display: flex;
+	justify-content: center; /*căn theo chiều ngang*/
+	align-items: center; /*căn theo chiều dọc*/
+
+	}
+
+#red p{
+	color: white;
+	font-weight: bold;
+}
+
+#blue{
+	background-color: blue;
+}
+
+#green{
+	background-color: green;
+}

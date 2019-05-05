@@ -4,27 +4,14 @@
 }
 
 .picture img{
-	border: 2px solid orange;
+	border: 2px solid #113e3ea6;
 	border-radius: 20px;
 	margin-bottom: 20px;
 }
 
 .picture img:hover{
-	border-radius: 50%;
+	 border: 2px solid red; 
 }
 
-#row1{
-	margin-top: 15px;
-}
 
-.col1{
-	margin-right: 5px;
-}
 
-.col2{
-	margin: 0px 5px;
-}
-
-.col3{
-	margin-left: 10px;
-}

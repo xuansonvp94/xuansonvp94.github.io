@@ -2,7 +2,9 @@
 	box-sizing: border-box;
 }
 
-
+body{
+	margin: 0;
+}
 
 .wrapper {
 	max-width: 100%;
@@ -12,24 +14,27 @@
 
 }
 
-#red{
+.wrapper>div{
 	width: calc(100% / 3);
 	height: 400px;
-	background-color: red;
 	float: left;
 }
 
+
+
+#red{
+	
+	background-color: red;
+	
+}
+
 #green{
-	width: calc(100% / 3);
-	height: 400px;
+	
 	background-color: green;
-	float: left;
 
 }
 
 #blue{
-	width: calc(100% / 3);
-	height: 400px;
+	
 	background-color: blue;
-	float: left;
 }
