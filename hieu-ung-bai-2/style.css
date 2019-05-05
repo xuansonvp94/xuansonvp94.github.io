@@ -1,0 +1,35 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	width: 700px;
+	margin: 40px auto;
+	display: grid;
+	grid-template-rows: auto auto auto;
+	grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+}
+
+
+img{
+
+	width: calc(700px / 3 - 10px);
+	padding: 5px;
+	border: 1px solid black;
+	transition: all  1s linear;
+}
+
+.row1:hover img {
+	transform: scale(1.3);
+}
+
+
+
+
+
+
+
+
