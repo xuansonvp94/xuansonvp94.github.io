@@ -1,0 +1,26 @@
+
+div{
+	margin: auto;
+	width: 200px;
+	height: 70px;
+	border-radius: 10px;
+	background-color: #428bca;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: border-radius 1s , background-color 1s;
+
+
+}
+
+div:hover{
+	border-radius: 50px;
+	background-color: #25c189;
+}
+
+a{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
