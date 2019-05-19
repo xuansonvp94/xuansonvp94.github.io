@@ -10,14 +10,14 @@
 	display: grid;
 	grid-template-rows: auto auto auto;
 	grid-template-columns: auto auto auto;
-	grid-gap: 10px;
+	grid-gap: 5px;
 	/*background-color: #c1bebe;*/
 }
 
 img{
 
 	max-width: calc(700px / 3 - 10px);
-	border: 8px solid white;
+	border: 5px solid white;
 	transition: all  1s linear;
 }
 
