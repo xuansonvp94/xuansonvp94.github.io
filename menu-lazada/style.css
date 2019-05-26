@@ -1,7 +1,7 @@
-* {
+/** {
 	margin: 0;
 	padding: 0;
-}
+}*/
 
 body {
 	max-width: 1000px;
@@ -42,9 +42,9 @@ body {
 	color: #1a9cb7;
 }
 
-.main-menu li:hover .main-list::after , .sub-menu li:hover .sub-list::after{
+/*.main-menu li:hover > a::after , .sub-menu li:hover > a::after{
 	content: " >"
-}
+}*/
 
 .main-menu li:hover {
 	background-color: #eceff1;

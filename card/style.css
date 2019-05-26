@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+	 height: 100%;
+	 width: 100%;
+	 display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+font-family: 'Mr Dafoe', cursive;
+
+    color: #ffffff;
+    background: #ffeeec;
+    
+
+}
+
+
+/*keyframes*/
+
+@keyframes card {
+	0%{
+		width: 0px; 
+		box-shadow: 0 0 0 0;
+	}
+	100%{
+		width: 750px; 
+		box-shadow: box-shadow: 0 0 10px 0 #c59999;
+	}
+}
+
+@keyframes bouquet {
+	0%{
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	
+	100%{
+		opacity: 1;
+	}
+}
+
+
+@keyframes day {
+	0% {
+		position: absolute;
+    	font-size: 202px;
+    	bottom: -150px;
+    	right: 53px;
+	}
+
+	80%{
+		position: absolute;
+    	font-size: 202px;
+    	bottom: -150px;
+    	right: 53px;
+	}
+
+	100% {
+		position: absolute;
+    	font-size: 202px;
+    	bottom: -15px;
+    	right: 53px;
+	}
+}
+
+@keyframes th {
+	0%{
+		position: absolute;
+    	font-size: 50px;
+    	bottom: -68px;
+    	right: 24px;
+	}
+	80%{
+		position: absolute;
+   	 	font-size: 50px;
+   	 	bottom: -68px;
+   	 	right: 24px;
+	}
+	100%{
+		position: absolute;
+    	font-size: 50px;
+    	bottom: 67px;
+    	right: 24px;
+	}
+}
+
+@keyframes month {
+	0%{
+		position: absolute;
+   		font-size: 65px;
+    	bottom: 67px;
+    	right: 27px;
+	}
+
+	80% {
+		position: absolute;
+    	font-size: 65px;
+    	bottom: 67px;
+    	right: 27px;
+	}
+
+	100% {
+		position: absolute;
+   		font-size: 65px;
+    	bottom: 13px;
+    	right: 27px;
+	}
+
+}
+
+
+/*style*/
+
+.card{
+	width: 750px;
+	height: 450px;
+	box-shadow: 0 0 10px 0 #c59999;
+	background: radial-gradient(#fffdfe, #ffd1c9); 
+	position: relative;
+	animation: card 2s ease-in-out;
+	overflow: hidden;
+}
+
+#bouquet {
+	width: 350px;
+    transform: rotate(57deg);
+    position: absolute;
+    top: 0;
+    left: -19px;
+    animation: bouquet 5s ease-in-out;
+}
+
+
+/*style happy birthday*/
+.hpbd {
+	color: #925d5d;
+	font-size: 80px;
+	animation: bouquet 5s ease-in-out;
+}
+
+#hp {	
+	position: absolute;
+	top: 3px;
+	right: 227px;
+}
+
+#bd {
+	position: absolute;
+	top: 67px;
+	right: 57px;
+}
+
+/*style month day*/
+#hid-date {
+	position: absolute;
+    width: 250px;
+    height: 140px;
+    overflow: hidden; 
+    bottom: 108px;
+    right: 55px;
+}
+
+.date {
+	font-family: 'Elsie', cursive;
+	color: #ec5f5d;
+}
+
+#day{
+	position: absolute;
+    font-size: 202px;
+    bottom: -15px;
+    right: 53px;
+   	animation: day 6.5s ease-in-out; 
+}
+
+#thh{
+	position: absolute;
+    font-size: 50px;
+    bottom: 67px;
+    right: 24px;
+    animation: th 6.5s ease-in-out; 
+}
+
+#hid-month {
+	position: absolute;
+    width: 293px;
+    height: 83px;
+    overflow: hidden;
+    bottom: -2px;
+    right: 47px;
+
+}
+#month{
+	position: absolute;
+    font-size: 65px;
+    bottom: 13px;
+    right: 27px;
+    animation: month 6.5s ease-in-out;
+}
+
+#line {
+	height: 3px;
+    width: 158px;
+    background: #ec5f5d;
+    position: absolute;
+    bottom: 93px;
+    right: 96px;
+    animation: bouquet 5s ease-in-out;
+}
+
