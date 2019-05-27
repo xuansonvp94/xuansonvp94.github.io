@@ -1,0 +1,47 @@
+
+#content a{
+	float: left;
+}
+
+#content {
+   max-width: 100%;
+}
+
+#content img {
+    max-width: 300px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px #796c6c;
+}
+
+#content a{
+	text-decoration: none;
+	color: black;
+	margin-bottom: 15px;
+}
+
+#content > a.col1 {
+	padding-right: 25px;
+}
+
+#content > a.col2 {
+	padding: 0 25px 0 25px;
+}
+
+#content > a.col3 {
+	padding-left: 25px;
+}
+
+#content p {
+	text-align: center;
+	font-weight: bold;
+}
+
+#content a:hover img {
+	opacity: 0.5;
+	transition: opacity 0.5s;
+}
+
+#content a:hover p {
+	background-color: #d6cfcf;
+}
+
