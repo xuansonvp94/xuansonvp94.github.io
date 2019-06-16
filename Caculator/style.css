@@ -1,0 +1,86 @@
+#wrap {
+	margin: auto;
+    margin-top: 50px;
+	border: 2px solid gray;
+    border-radius: 30px;
+    width: 310px;
+    height: 520px;
+    text-align: center;
+    background-color: black;
+}
+
+
+.calculation, .ipt {
+	width: 280px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+ 	padding: 0px 5px 0px 5px;
+	background-color: black;
+    color: white;
+    text-align: right;
+}
+
+.ipt {
+    font-size: 50px;
+    margin: -15px 10px 20px 10px; 
+}
+
+.calculation {
+    font-size: 30px;
+    margin: 20px 10px 20px 10px;
+}
+
+.btn {
+	width: 65px;
+    height: 65px;
+    border: 0;
+    border-radius: 50%;
+    margin-top: 7px;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 25px;
+
+}
+
+#zero {
+	width: 146px;
+    height: 65px;
+    border-radius: 38px;
+    border: 0;
+    font-size: 25px;
+    color: white;
+	background-color: #403e3e;;
+
+}
+
+button.btn {
+	color: white;
+	background-color: #403e3e;
+}
+
+button.btn.row1 {
+	color: black;
+	background-color: #ccc7c7;
+}
+
+button.btn.cal {
+	color: white;
+	background-color: #f38c21;
+}
+
+.btn:active {
+	background-color: #afabab;
+}
+
+button.btn.row1:active {
+	background-color: #f7f4f4;
+}
+
+button.btn.cal:active {
+	background-color: #efbe8c;
+}
+
+#zero:active {
+	background-color: #afabab;
+}
