@@ -27,12 +27,12 @@ $('.all-clear').on('click', function() {
 
 //các nút phép tính
  $('.pheptinh').on('click', function() {
-    $char = $(this).html(); 
-    $value_calculation = $('.calculation').val(); 
-    $('.calculation').val($value_calculation + $char);
+    let char = $(this).html(); 
+    let value_calculation = $('.calculation').val(); 
+    $('.calculation').val(value_calculation + char);
  });
 
  $('.daubang').on('click', function() {
     let result = $('.calculation').val(); 
-    $('.ipt').val(eval($result));
+    $('.ipt').val(eval(result));
 });
