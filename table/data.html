@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<script
+	  src="https://code.jquery.com/jquery-3.4.1.js"
+	  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+	  crossorigin="anonymous"> 	
+  </script>
+</head>
+<body>
+	<h1>Data</h1>
+	<div class="table-data">
+		<table>
+			<thead>
+					<button onclick="">Sort</button>
+					<th>profile_name</th>
+					<th>display_name </th>
+					<th>reputation</th>
+					<th>Website_url</th>
+					<th>Creation_date</th>
+				
+			</thead>
+			<tbody>
+				
+			</tbody>
+		</table>
+	</div>
+	<script>
+		$.ajax({
+			url: "http://localhost:3000/items",
+			success: function(users) {
+				render(users)
+			}
+		});
+
+		function render(users){
+			const tbody = document.getElementsByTagName('tbody')[0]
+			for (let i = 0; i < users.length; i++) {
+				const user = users[i];
+				let tr = document.createElement('tr')
+				
+				tr.innerHTML = `<tr>
+					<td>
+						<img src="${user.profile_image}"/>
+					</td>
+					<td>
+						<a href="${user.link}" tile="${user.link}">${user.display_name}</a>
+					</td>
+					<td>
+						${user.reputation}
+					</td>
+					<td>
+						<a href="${user.website_url}" title="${user.website_url}">${user.website_url}</a>
+					</td>
+					<td>
+                      	${user.creation_date.toLocaleString()}
+                    </td>
+				</tr>`
+
+				tbody.appendChild(tr)
+			}
+		}
+
+		
+
+	</script>
+</body>
+</html>
