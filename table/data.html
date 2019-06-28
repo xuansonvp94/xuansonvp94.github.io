@@ -11,37 +11,54 @@
   </script>
 </head>
 <body>
-	<h1>Data</h1>
+	<h1>Data Users</h1>
 	<div class="table-data">
 		<table>
 			<thead>
-					<button onclick="">Sort</button>
-					<th>profile_name</th>
-					<th>display_name </th>
-					<th>reputation</th>
-					<th>Website_url</th>
-					<th>Creation_date</th>
-				
+				<th>Profile Name</th>
+				<th>Display Name </th>
+				<th>Reputation</th>
+				<th>Website Url</th>
+				<th>Creation Date</th>
+
 			</thead>
 			<tbody>
-				
+
 			</tbody>
 		</table>
 	</div>
+	
+	
 	<script>
 		$.ajax({
 			url: "http://localhost:3000/items",
 			success: function(users) {
+				users.sort(
+					function compare(a,b) {
+						let displayNameA = a.display_name.toLowerCase();
+						let displayNameB = b.display_name.toLowerCase();
+						if ( displayNameA < displayNameB) {
+							return -1;
+						}
+
+						if (displayNameA > displayNameB) {
+							return 1;
+						}
+						return 0;
+					})
 				render(users)
 			}
 		});
+
+
+		
 
 		function render(users){
 			const tbody = document.getElementsByTagName('tbody')[0]
 			for (let i = 0; i < users.length; i++) {
 				const user = users[i];
 				let tr = document.createElement('tr')
-				let creation_date = new Date(user.creation_date)
+				let creation_date = new Date(user.creation_date * 1000)
 				
 				tr.innerHTML = `<tr>
 					<td>
@@ -57,15 +74,13 @@
 						<a href="${user.website_url}" title="${user.website_url}">${user.website_url}</a>
 					</td>
 					<td>
-                      	${creation_date.toLocaleString()}
+                      	${creation_date.toLocaleString('vi')}
                     </td>
 				</tr>`
 
 				tbody.appendChild(tr)
 			}
 		}
-
-		
 
 	</script>
 </body>
