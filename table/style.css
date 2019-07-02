@@ -10,16 +10,32 @@ body{
 	background-color: #dad9d9;
 }
 
+
+
 .table-data {
-	max-width: 1000px;
-    margin: auto;
+
     background: white;
     margin-top: 40px;
 }
+
+.width-limit {
+	min-width: 160px;
+	position: relative;
+
+}
+
+.asc, .dsc {
+	opacity: 0.3;
+	position: absolute;
+	right: 10px;
+
+}
+
 h1{
 	text-align: center;
 	margin: 40px 0px 20px 0px;
 	font-size: 50px;
+
 }
 
 
@@ -29,7 +45,7 @@ table {
 
 table, th, td {
 	border-bottom: 1px solid #ddd;
-	border-collapse: collapse;
+	
 }
 
 th, td {
@@ -43,7 +59,7 @@ th {
 }
 
 button {
-	width: 100px;
+	width: 50px;
     height: 30px;
     background: #4CAF50;
     color: white;
@@ -59,4 +75,7 @@ a {
 tr:hover{
 	background-color: #e2dcdc;
 }
+
+
+
 

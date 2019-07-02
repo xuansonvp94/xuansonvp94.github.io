@@ -1,0 +1,13 @@
+.img-hover:hover{
+			opacity: 0.5;
+			transition: opacity 0.5s;
+		}
+
+.heading {
+    		text-align: center;
+    		font-family: 'Abril Fatface', cursive;
+    		margin-bottom: 37px;
+   			letter-spacing: 21px;
+    		font-size: 50px;
+    		text-shadow: 5px 2px 2px #acacac;
+		}
