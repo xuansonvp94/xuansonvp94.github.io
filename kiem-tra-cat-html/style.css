@@ -1,0 +1,743 @@
+@font-face {
+    font-family: 'latomedium';
+    src: url('font/lato-medium-webfont.woff2') format('woff2'),
+         url('font/lato-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('font/lato-regular-webfont.woff2') format('woff2'),
+         url('font/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #ffffff;
+    font-family: latoregular;
+    font-size: 16px;
+    line-height: 24px;
+   
+}
+
+
+
+a:hover {
+    text-decoration: none;
+}
+
+.a-black {
+    color: black !important;
+}
+
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.foot-menu {
+    background-color: #0E1D28;
+}
+
+.container-fluid {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.container {
+    padding-right: 0px ;
+    padding-left: 0px ;
+}
+
+.h1-title {
+    font-family: latomedium;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 42px;
+    margin-bottom: 100px;
+}
+
+.white-color {
+    color: #ffffff;
+}
+
+/*HEADER*/
+header {
+    position: relative;
+    margin-bottom: 585px;
+}
+
+.logo {
+    position: absolute;
+    top: 50px;
+    left: 93px;
+}
+
+.main-menu {
+    position: absolute;
+    top: 50px;
+    right: 70px;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+}
+
+.nav-item {
+    margin: 0 25px;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(0,0,0,.1);
+    background: white;
+}
+
+.head-title {
+    position: absolute;
+    top: 233px;
+    left: 93px;
+    max-width: 600px;
+}
+
+.h1-head-title {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.p-head-title {
+    color: white;
+    line-height: 24px;
+}
+
+.btn-search {
+    position: absolute;
+    top: 495px;
+    left: 80px;
+}
+
+.form-control {
+    width: 18rem !important;
+    height: 55px;
+    background: none;
+    border: 0;
+    border-bottom: 2px solid #ffffff;
+}
+
+.mr-sm-2 {
+    margin-right: 2.5rem!important;
+}
+
+
+.btn-search button {
+    width: 10rem;
+    height: 55px;
+    font-size: 24px;
+    background: #1B7DFF;
+    color: #ffffff;
+}
+
+/*BENEFITS*/
+.benefits {
+    box-shadow: 0 0 5px #796c6c;
+    background-color: #ffffff;
+    height: auto;
+    padding-top: 90px;
+    padding-left: 90px;
+    position: absolute;
+    top: 61rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.col-ben {
+    padding-right: 50px;
+}
+
+
+.icon-ben {
+    margin-bottom: 45px;
+}
+
+.title-ben {
+    font-family: latomedium;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 45px;
+    color: black;
+
+}
+
+.content-ben {
+    margin-bottom: 50px;
+}
+
+header div.container {
+    margin-bottom: 100px;
+}
+
+.learn-more {
+    position: relative;
+}
+
+.shape {
+    position: absolute;
+    right: 120px;
+    top: 7px;
+}
+
+/*INSPIRED*/
+
+.get-inspired {
+    margin-bottom: 130px;
+}
+
+.img-spired {
+    padding: 10px !important;
+    position: relative;
+}
+
+.img-spired h2 {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: #ffffff;
+}
+
+.view-all {
+    position: relative;
+    padding: 10px 0px 0px 50px;
+}
+
+.shape-view-all {
+    position: absolute;
+    top: 17px;
+    right: 0px;
+}
+
+.img-spired img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+
+
+/*TOP-PLACES*/
+.top-places {
+    margin-bottom: 100px;
+}
+
+.card-top-places {
+    position: relative;
+}
+
+.name-place {
+    position: absolute;
+    bottom: 190px;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    color: #ffffff;
+    padding-left: 7px;
+    background: rgba(21, 24, 36, 0.6);
+}
+
+.card {
+    margin: auto;
+    width: 22rem;
+}
+
+.img-hover:hover {
+    opacity: 0.5;
+}
+
+.img-hover {
+    transition: all 0.5s linear;
+}
+
+
+/*PRE-NEIGHBOR*/
+
+.row1-pre-neighbor {
+    margin-bottom: 50px;
+}
+
+.pre-neighbor {
+    margin-bottom: 140px;
+}
+
+/*FOOTER*/
+
+.foot-menu {
+    padding: 95px 0px;
+}
+
+.list-menu {
+    font-size: 18px;
+}
+
+footer {
+    position: relative;
+}
+
+
+.bottom-logo {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+}
+
+.link-menu {
+    margin-bottom: 10px;
+}
+
+
+
+
+@media (min-width: 1200px) {
+    .background {
+        width: 100% !important;
+    }
+
+    .video-bg {
+        width: 100% !important;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .container {
+        max-width: 756px
+    }
+
+    .head-title {
+        top: 150px;
+    }
+
+    .btn-search {
+        top: 400px;
+    }
+
+    .benefits {
+        top: 53rem;
+        padding-top: 35px;
+        padding-left: 35px;
+    }
+
+    .shape {
+        right: 30px;
+    }
+
+    .title-welcome {
+        margin-bottom: 68px;
+    }
+
+
+}
+  
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .main-menu nav {
+        position: relative;
+    }
+
+
+    .main-menu .sub-menu {
+        position: absolute;
+        top: 48px;
+        right: -25px;
+    }
+
+    .head-title {
+        top: 130px;
+    }
+
+    .btn-search {
+        top: 375px;
+    }
+
+    header {
+        margin-bottom: 46rem;
+    }
+
+    .benefits {
+        padding-top: 30px;
+        padding-left: 30px;
+        top: 51rem;
+    }
+
+    .shape {  
+        right: 95px;
+    }
+
+    .head-title {
+        max-width: 530px;
+    }
+
+    header div.container {
+        margin-bottom: 10px;
+    }
+
+
+    .view-all {
+        padding: 10px 0px 0px 0px;
+    }
+
+    .mr-sm-2 {
+        margin-right: 1.5rem!important;
+    }
+
+    .form-control {
+        width: 220px !important;
+        height: 55px;
+    }
+
+    .btn-search button {
+        width: 7rem;
+    }
+
+    .bottom-logo {
+        margin-bottom: 20px;
+    }
+
+    .bottom-menu {
+        padding-left: 118px;
+    }
+
+    .title-ben {
+        margin-bottom: 10px;
+    }
+
+    .col-ben {
+        margin-bottom: 40px
+    }
+
+    .icon-ben {
+        margin-bottom: 15px;
+    }
+
+    .content-ben {
+        margin-bottom: 0px;
+    }
+
+    .h1-title {
+        margin-bottom: 50px;
+    }
+
+    .img-spired h2 {
+        left: 65px;
+    }
+
+    .name-inspired {
+        left: 150px !important;
+    }
+
+
+    .row1-pre-neighbor {
+        margin-bottom: 33px;
+    }
+
+    .pre-neighbor {
+        margin-bottom: 85px;
+    }
+
+    .card {
+        width: 21rem;
+    }
+
+    .pre-neighbor h2 {
+        font-size: 25px;
+    }
+
+    
+ }
+
+
+
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .main-menu .sub-menu {
+        position: absolute;
+        top: 47px;
+        right: -26px;
+    }
+
+    .logo {
+        top: 30px;
+        left: 40px;
+    }
+
+    .nav-link {
+        font-size: 16px !important;
+    }
+
+    .head-title {
+        top: 5rem;
+        left: 42px;
+        max-width: 20rem;
+    }
+
+    .h1-head-title {
+        font-size: 26px;
+        line-height: 37px;
+    }
+
+    .h1-title {
+        margin-bottom: 26px;
+    }
+
+    .p-head-title {
+        line-height: 22px;
+        font-size: 13px;
+    }
+
+    header {
+        margin-bottom: 48rem;
+    }
+
+    .shape-view-all {
+        display: none;
+    }
+
+    .view-all {
+        padding: 10px 0px 0px 10px;
+    }
+
+    .col-ben {
+        padding: 0 105px;
+        margin-bottom: 45px;
+    }
+
+    .title-ben {
+        margin-bottom: 18px;
+    }
+
+    .content-ben {
+        margin-bottom: 10px;
+    }
+
+    .main-menu {
+        top: 18px;
+        right: 30px;
+    }
+
+    .icon-ben {
+        display: none;
+    }
+
+    .mr-sm-2 {
+        margin-right: 1rem!important;
+    }
+
+    .form-control {
+        width: 11rem !important;
+        font-size: 12px;
+        height: 45px;
+    }
+
+    .btn-search button {
+        width: 7rem;
+        height: 42px;
+        font-size: 20px;
+    }
+
+    .benefits {
+        top: 51rem !important;
+        padding-top: 20px;
+        padding-left: 11px;
+        box-shadow: none;
+    }
+
+    .btn-search {
+        top: 290px;
+        left: 30px;
+    }
+
+    .name-inspired {
+        left: 60px !important;
+    }
+
+    .img-pre-neighbor {
+        margin-bottom: 10px;
+    }
+
+    .row1-pre-neighbor {
+        margin-bottom: 40px;
+    }
+
+    .link-pre-neighbor {
+        margin-bottom: 20px;
+    }
+
+    .bottom-menu {
+        padding-left: 102px;
+    }
+
+    .bottom-logo {
+        margin-bottom: 40px;
+    }
+
+    .div-foot-menu {
+        width: auto;
+    }
+ }
+
+ @media (max-width: 575.98px) { 
+
+    header {
+        margin-bottom: 625px;
+    }
+
+    .logo {
+        position: absolute;
+        top: 25px;
+        left: 40px;
+    }
+
+    .navbar-toggler {
+        font-size: 16px;
+    }
+
+    .sub-menu {
+        position: absolute;
+        top: 41px;
+        right: -27px;
+    }
+
+    .main-menu {
+        top: 10px;
+        right: 29px;
+    }
+
+    .nav-link {
+        font-size: 16px !important;
+    }
+
+    .h1-head-title {
+        font-size: 25px;
+        line-height: 27px;
+    }
+
+    .head-title {
+        top: 109px;
+        left: 40px;
+        max-width: 22rem;
+    }
+
+    .btn-search input {
+        display: none;
+    }
+
+    .btn-search {
+        top: 2px;
+        left: 22rem;
+    }
+
+   .btn-search button {
+        width: 6rem;
+        font-size: 16px;
+        height: 36px;
+    }
+
+    .div-foot-menu {
+        margin-bottom: 20px;
+    }
+
+    .logo-bottom {
+        margin-bottom: 20px;
+    }
+
+    .icon-ben {
+        display: none;
+    }
+
+    .benefits {
+        box-shadow: none;
+        padding-top: 0px;
+        padding-left: 16px;
+        top: 46rem;
+    }
+
+
+    .h1-title {
+        margin-bottom: 10px;
+    }
+
+    .title-ben {
+        margin-bottom: 10px;
+    }
+
+    .content-ben {
+        margin-bottom: 10px;
+    }
+
+    .div-ben {
+        padding: 0px 60px;
+    }
+
+    .col-ben {
+        margin-bottom: 40px;
+    }
+
+    .shape {
+        right: 210px;
+    }
+
+    .view-all {
+        padding: 8px 0px 0px 14px;
+        margin-bottom: 20px;
+    }
+
+    .shape-view-all {
+        left: 111px;
+    }
+
+    .name-inspired {
+        left: 77px !important;
+    }
+
+    .margin-bottom {
+        margin-bottom: 10px;
+    }
+
+    .bottom-logo {
+        margin-bottom: 20px;
+    }
+
+    .bottom-menu {
+        padding-left: 69px;
+    }
+
+}
+
+
+
+
+
+
+
