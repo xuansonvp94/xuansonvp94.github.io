@@ -1,0 +1,441 @@
+@font-face {
+    font-family: 'latobold';
+    src: url('fonts/lato-bold-webfont.woff2') format('woff2'),
+         url('fonts/lato-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latolight';
+    src: url('fonts/lato-light-webfont.woff2') format('woff2'),
+         url('fonts/lato-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body {
+	font-family: 'latoregular';
+	font-size: 14px;
+	background: #ffffff;
+}
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+.wrapper {
+	 max-width: 1600px;
+	 margin: 0 auto;
+	 background-color: #ffffff;
+}
+
+
+:root {
+  --gray-light: #6C6C6C;
+  --blue-light: #F6FAFD;
+  --title: #414141;
+  --menu-bottom: #464646;
+  --pink: #FE50A6;
+}
+
+
+/*HEADER*/
+
+.header {
+	position: relative;
+	background-image: url("images/background.png");
+	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: center center;
+	min-height: 840px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-logo {
+	position: absolute;
+	left: 130px;
+	top: 41px;
+	font-family: 'latobold';
+	font-size: 22px;
+	color: #ffffff;
+}
+
+.header-content {
+	color: #ffffff;
+	max-width: 1021px;
+}
+
+.title-big {
+	font-family: 'latobold';
+	font-size: 50px;
+	line-height: 60px;
+	text-align: center;
+	margin-bottom: 37px; 
+}
+
+.title-small {
+	max-width: 530px;
+	margin: auto;
+}
+
+.content-title-small {
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 32px;
+	text-align: center;
+	margin-bottom: 49px;
+}
+
+
+.header-input {
+	width: 310px;
+	margin-right: 37px;
+	height: 45px;
+	padding-left: 20px;
+	border: none;
+	opacity: 0.25;
+	border-radius: 5px;
+}
+
+.header-btn {
+	width: 180px;
+	height: 45px;
+	color: white;
+	border: none;
+	text-align: center;
+	border-radius: 5px;
+	background-image: linear-gradient(to right, #fe985b, #ff8365, #ff6e76, #ff5b8d, #fe4fa7);
+
+}
+
+.header-btn:hover {
+	background-image: linear-gradient(to right, #ff5b8d, #fe4fa7, #ff6e76,  #fe985b, #ff8365);
+}
+
+
+/*FEATURES*/
+
+.features {
+	margin-right: 3rem;
+	margin-left: 3rem;
+	margin-top: 5rem;
+}
+
+.features-1 {
+	border-bottom: 1px solid #6C6C6C;
+}
+
+.features-col-1 {
+	margin-bottom: 6rem;
+}
+
+.features-title-big {
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 41px;
+	color: var(--title);
+}
+
+
+.features-title-small {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	color: var(--title);
+}
+
+.features-content {
+	line-height: 28px;
+	color: var(--gray-light);
+}
+
+.features-content {
+	padding-right: 100px;
+}
+
+
+
+/*FEATURES*/
+
+.features-list {
+	text-align: center;
+	margin-bottom: 5rem;
+}
+
+
+.features-list-content {
+	line-height: 28px;
+	color: var(--gray-light);
+	font-weight: 300;
+
+}
+
+
+/*FOUNDER*/
+
+.founder {
+	background-color: var(--blue-light);
+	margin-bottom: 5rem;
+}
+
+
+.founder-div-img {
+	display: flex;
+	justify-content: center;
+}
+
+.img-founder {
+	max-width: 300px;
+}
+
+.founder-div-content {
+	display: flex;
+	align-items: center;
+}
+
+
+.founder-content {
+	font-size: 20px;
+	line-height: 40px;
+	color: var(--title);
+	max-width: 28.5rem;
+}
+
+
+.founder-name {
+	margin-bottom: 0px;
+	font-weight: bold;
+	line-height: 10px;
+}
+
+/*CHOOSE*/
+
+.choose {
+	max-width: 500px;
+	margin: auto;
+	margin-bottom: 5rem;
+	text-align: center;
+}
+
+.choose-card {
+	max-width: 580px;
+	margin: auto;
+	text-align: center;
+}
+
+.choose-card-plan {
+	padding: 2rem 22px;
+	margin-bottom: 5rem;
+}
+
+.choose-card-plan:hover {
+	background-color: var(--blue-light);
+}
+
+.choose-btn:hover {
+	background-image: linear-gradient(to right, #fe985b, #ff8365, #ff6e76, #ff5b8d, #fe4fa7);
+	border: none;
+	color: #ffffff;
+
+}
+
+.choose-card-title {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.choose-price {
+	font-size: 68px;
+	font-weight: bold;
+	color: var(--pink);
+}
+
+.choose-mo {
+	font-size: 12px;
+}
+
+.choose-btn {
+	width: 170px;
+	height: 43px;
+	background-color: #ffffff;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid #979797;
+	color: var(--title);
+}
+
+.choose-content {
+	margin-bottom: 2rem;
+}
+
+
+/*FREE GET STARTED*/
+
+.free-started {
+	color: #ffffff;
+	background-image: linear-gradient(to right, #fe985b, #ff8365, #ff6e76, #ff5b8d, #fe4fa7);
+	margin-bottom: 5rem;
+}
+
+.div-free-started {
+	text-align: center;
+	max-width: 37rem;
+    margin: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.title-free-started {
+	margin-bottom: 25px;
+}
+
+.free-started-content {
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 30px;
+	padding: 0px 51px;
+    margin-bottom: 2rem;
+}
+
+.free-started-btn {
+	width: 170px;
+	height: 43px;
+	background-color: #ffffff;
+	text-align: center;
+	border-radius: 5px;
+	color: var(--title);
+	border: none;
+}
+
+
+.free-started-btn:hover {
+	box-shadow: 0 0 15px #ffffff;
+}
+
+
+/*FOOTER*/
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5rem;
+}
+.footer {
+	text-align: center;
+}
+
+.bottom-logo {
+	font-family: 'latobold';
+	font-size: 22px;
+	color: #464646;
+	margin-bottom: 1rem;
+}
+
+.nav-link {
+	font-size: 12px;
+	font-weight: bold;
+	color: var(--menu-bottom);
+}
+
+.nav-link:hover {
+	color: var(--pink);
+}
+
+
+.nav-item {
+	padding: 0px 25px;
+}
+
+
+
+@media (max-width: 1200px) {
+	.features {
+	    margin-right: 0rem;
+	    margin-left: 0rem;
+	}
+}
+
+
+@media (max-width: 992px) {
+
+	.header-input {
+    	width: 260px;
+	}
+
+	.features {
+		margin-right: 2rem;
+    	margin-left: 2rem;
+	}
+
+	.features-col-1-sub {
+		max-width: 630px;
+    	margin: auto;
+	}
+
+	.features-video {
+		width: 630px;
+	}
+
+	.features-video-div {
+		margin-bottom: 5rem;
+	}
+
+	.features-content {
+    	padding-right: 0px;
+	}
+
+	.founder-content {
+   		max-width: 21.5rem;
+	}
+
+	.header-input {
+    	width: 240px;
+    	margin-right: 20px;
+	}
+
+
+}
+
+@media (max-width: 768px) {
+		.founder-content {
+    		font-size: 11px;
+    	}
+
+    	.img-founder {
+    		max-width: 200px;
+		}
+
+		.choose-card {
+   			max-width: 470px;
+   		}
+	}
