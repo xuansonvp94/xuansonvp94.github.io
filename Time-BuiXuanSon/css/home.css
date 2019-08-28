@@ -1,0 +1,70 @@
+/*LUXURY*/
+
+.lux-carousel {
+	width: fit-content !important;
+	margin: auto;
+}
+
+.main-img-lux {
+	margin-right: 80px;
+}
+
+
+/*CUSTOMER'S FEEDBACK*/
+
+.feedback {
+	background-color: #ffffff;
+}
+
+.feedback .carousel-indicators li {
+	background-color: #1c1b1b;
+}
+
+
+.div-feedback {
+	margin-bottom: 4%;
+}
+
+.customer-career {
+	margin-left: 30px;
+	color: #b63327;
+}
+
+
+
+/*VIDEO*/
+
+
+.video {
+	position: relative;
+}
+
+.btn-play {
+	position: absolute;
+	top: 43%;
+	left: 47%; 
+}
+
+.btn-play > img {
+	width: 10%;
+	height: 10%;
+}
+
+.btn-play img:hover {
+	transform: scale(1.2, 1.2);
+}
+
+.video img {
+	transition: all 0.3s linear;
+	width: 100%;
+}
+
+
+
+/*WHY CHOOSE US*/
+
+
+
+
+
+

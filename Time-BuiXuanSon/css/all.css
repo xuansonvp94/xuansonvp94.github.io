@@ -1,0 +1,167 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('fonts/montserrat/montserrat-medium-webfont.woff2') format('woff2'),
+         url('fonts/montserrat/montserrat-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('fonts/montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+         url('fonts/montserrat/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'montserratsemibold';
+    src: url('fonts/montserrat/montserrat-semibold-webfont.woff2') format('woff2'),
+         url('fonts/montserrat/montserrat-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+ 	width: 100%;
+ 	height: 100%;
+ 	font-family: 'montserratregular', sans-serif !important;
+ 	font-size: 14px !important;
+ 	color: #1c1b1b !important;
+ 	background-color: #efefef !important;
+ }
+
+
+
+ .margin-top {
+	margin-top: 4%;
+}
+
+.section-padding {
+	padding: 60px 0px 0px 0px;
+}
+
+hr {
+	margin-top: 60px !important;
+    margin-bottom: 0rem !important;
+}
+
+
+/*HEADER*/
+.top {
+	background-color: #151515;
+	height: 45px;
+}
+
+.main-menu {
+	background-color: #ffffff;
+	border-bottom: 1px solid #1c1b1b;
+}
+
+.navbar-brand img {
+	width: 85px;
+	height: 52px;
+}
+
+.navbar li a {
+	color: #1c1b1b;
+}
+
+
+
+/*DARK BUTTON*/
+
+.btn {
+	border-radius: 0px !important;
+}
+
+.dark-btn {
+	color: #ffffff !important; 
+	background-color: #1c1b1b !important;
+	
+}
+
+.dark-btn:hover {
+	background-color: #efefef !important;
+	color: #1c1b1b !important;
+	border: 1px solid #1c1b1b !important;
+}
+
+
+
+/*Sort-menu*/
+.sort-menu {
+	border-top: 1px solid #AEAEAE;
+	border-bottom: 1px solid #AEAEAE;
+}
+
+
+/*PAGE NUMBER*/
+.page-number {
+	width: fit-content;
+}
+
+.btn-group .btn-page {
+	color: #767373;
+	border: 1px solid #767373;
+	margin: 0px 20px 0px 20px;
+}
+
+.btn-group .btn-page:hover {
+	color: #ffffff;
+	background-color: #1c1b1b;
+}
+
+.btn-group .active {
+	color: #ffffff;
+	background-color: #1c1b1b;
+}
+
+
+/*TAB ĐÒNG HỒ NAM - ĐỒNG HỒ NỮ*/
+
+.nav-pills .nav-link.active {
+    color: #1c1b1b !important;
+    background-color: #efefef !important;
+    border-bottom: 1px solid #1c1b1b !important;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0px !important;
+    margin: 0rem 2rem;
+    padding: 0.5rem 0rem !important;
+}
+
+.nav-pills a {
+	color: #1c1b1b !important;
+}
+
+.tab-left {
+	border-right: 1px solid #1c1b1b;
+}
+
+
+/*FOOTER*/
+
+footer {
+	background-color: #ffffff;
+}
+
+
+
+
+
+
