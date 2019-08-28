@@ -1,0 +1,21 @@
+.showroom {
+	color: #B63327;
+	font-weight: bold;
+}
+
+.info {
+	width: 80px;
+}
+
+.address {
+	font-weight: bold;
+}
+
+.clear-float {
+	clear: both;
+}
+
+.hr-store {
+	width: 50%;
+	color: #767373;
+}
