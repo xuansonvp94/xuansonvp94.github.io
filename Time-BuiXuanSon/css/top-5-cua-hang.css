@@ -1,0 +1,20 @@
+/*SHARE BLOG*/
+.share {
+	border: 1px solid #D2D2D2;
+	margin: auto;
+	width: 20%;
+	height: 5%;
+}
+
+.border-right {
+	border-right: 1px solid #D2D2D2;
+}
+
+
+.share ul{
+	list-style-type: none;
+}
+
+.share ul li {
+	float: left;
+}

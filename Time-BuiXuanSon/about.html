@@ -4,87 +4,100 @@
   <title>Về Time</title>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/all.css"/>
   <link rel="stylesheet" type="text/css" href="css/about.css"/>
   <link rel="stylesheet" type="text/css" href="library/font-awesome/css/all.css"/>
   <link rel="stylesheet" type="text/css" href="library/bootstrap/css/bootstrap.min.css"/>
-  <link rel="icon" type="image/png" href="images/home/logo.png" />
+  <link rel="icon" type="image/png" href="images/home/fav.png" />
 </head>
 <body>
 
-  <header class="header text-white">
+  <!-- TOP -->
+  <div class="top navbar text-white">
+    <div class="container-fluid">
+      <ul class="nav">
+        <li class="nav-item mr-5">
+          <span class="fas fa-phone-alt"></span>0912345678
+        </li> 
+        <li class="nav-item">
+          <span class="fas fa-map-marker-alt"></span> 72 Nguyễn Trãi - Thanh Xuân - Hà Nội
+        </li>
+      </ul>
 
-      <!-- TOP -->
-      <div class="top navbar">
-        <div class="container-fluid">
-          <ul class="nav">
+      <ul class="nav">
+        <li class="nav-item">
+          <a href="#" class="text-white"><span class="fas fa-search"></span></a> <input type="text" name="" autofocus="" placeholder="Tìm Kiếm">
+        </li>
+        <li class="nav-item ml-5">
+          <a class="text-white" href="#">Tài Khoản</a>
+        </li>
+        <li class="nav-item ml-5">
+          <a class="text-white" href="cart.html"> <i class="fas fa-shopping-cart"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- TOP -->
+  
+  <!-- MAIN-MENU -->
+  <div class="main-menu sticky-top">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-md">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item mr-5">
+              <a class="nav-link" href="index.html">TRANG CHỦ</a>
+            </li>
+            <li class="nav-item mr-5 menu-active">
+              <a class="nav-link" href="about.html">VỀ TIME</a>
+            </li>
             <li class="nav-item">
-              <i class="fas fa-phone-alt"></i> 0912345678
-            </li> 
-            <li class="nav-item">
-              <i class="fas fa-map-marker-alt"></i> 72 Nguyễn Trãi - Thanh Xuân - Hà Nội
+              <a class="nav-link">SẢN PHẨM</a>
+              <ul class="sub-menu">
+                <li><a href="product.html">ĐỒNG HỒ NAM</a></li>
+                <li><a href="#">ĐỒNG HỒ NỮ</a></li>
+              </ul>
             </li>
           </ul>
-
-          <ul class="nav">
+          <div class="logo">
+            <a class="navbar-brand" href="index.html"><img src="images/home/LOGO.png"/></a>
+          </div>
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <i class="fas fa-search"></i> <input type="" name="" placeholder="Tìm Kiếm">
+              <a class="nav-link">THƯƠNG HIỆU</a>
+              <ul class="sub-menu">
+                <li><a href="trademark.html">ORIENT</a></li>
+                <li><a href="#"></a>ROLEX</li>
+                <li><a href="#"></a>CITIZEN</li>
+                <li><a href="#"></a>SEIKO</li>
+                <li><a href="#"></a>TISSOT</li>
+                <li><a href="#"></a>DANIEL WELLINGTON</li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Tài Khoản</a>
+            <li class="nav-item ml-5">
+              <a class="nav-link" href="blog.html">BÀI VIẾT</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#"> <i class="fas fa-shopping-cart"></i></a>
+            <li class="nav-item ml-5">
+              <a class="nav-link" href="store.html">CỬA HÀNG</a>
             </li>
           </ul>
         </div>
-      </div>
+      </nav>
+    </div>
+  </div>
+  <!-- MAIN-MENU -->
 
-      <!-- MAIN-MENU -->
-
-      <div class="main-menu sticky-top">
-        <div class="container-fluid">
-          <nav class="navbar navbar-expand-md">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">TRANG CHỦ</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">VỀ TIME</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="product.html">SẢN PHẨM</a>
-                </li>
-              </ul>
-              <a class="navbar-brand" href="#"><img src="images/home/LOGO.png"/></a>
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="trademark.html">THƯƠNG HIỆU</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="blog.html">BÀI VIẾT</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="store.html">CỬA HÀNG</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-
-  </header>
 
 
 <!-- 
   CONTENT ABOUT US -->
-  <section>
-    <div class="container">
+  <section class="width-800 about-us">
+    <div>
         <div class="section-padding">
           <h1 class="text-center">VỀ TIME</h1>
         </div>
@@ -94,7 +107,7 @@
         </div>
 
         <div class="section-padding">
-          <h2>CHÚNG TÔI LÀ AI</h2>
+          <h2 class="font-weight-600">CHÚNG TÔI LÀ AI</h2>
         </div>
         <div class="section-padding">
           <p>
@@ -125,7 +138,7 @@
 
 
         <div class="section-padding">
-          <h2>GIÁ TRỊ CHÚNG TÔI HƯỚNG TỚI</h2>
+          <h2 class="font-weight-600">GIÁ TRỊ CHÚNG TÔI HƯỚNG TỚI</h2>
         </div>
         <div class="section-padding">
           <p>
@@ -147,9 +160,9 @@
 
 
         <div class="section-padding">
-          <h2>CHÚNG TÔI CAM KẾT</h2>
+          <h2 class="font-weight-600">CHÚNG TÔI CAM KẾT</h2>
         </div>
-        <div>
+        <div class="section-padding">
           <p>
             Những quan điểm kinh doanh dưới đây đều đã được các cán bộ, nhân viên của TIME hiểu rõ, thấm nhuần và tuyệt đối tuân thủ theo:
             <br>
@@ -164,15 +177,11 @@
             - Luôn làm hài lòng mọi Khách hàng đến với DUY ANH bằng việc thấu hiểu và thực hiện theo quan điểm: "Khách hàng luôn luôn đúng".
           </p>
         </div>
-
-
-        
     </div>
   </section>
 
 
   <!-- FOOTER -->
-
   <footer class="section-padding margin-top">
     <div class="container-fluid">
 
@@ -185,31 +194,11 @@
         </div>
       </div>
 
-
       <!-- MENU -->
-      <div class="row">
-
-        <!-- Thông tin liên hệ -->
+      <div class="row section-padding pb-5 m-auto">
+        <!-- Chăm sóc khách hàng -->
         <div class="col-md-3">
-          <h5 class="title-bot-menu">THÔNG TIN LIÊN HỆ</h5>
-          <ul>
-            <li>
-              <a href="">
-                Hệ thống cửa hàng
-              </a>
-            </li>
-            <li>
-              Hotline: 0912.345.678
-            </li>
-            <li>
-              Email: timewatches@time.com
-            </li>
-          </ul>
-        </div>
-
-        <!-- Chính sách mua hàng -->
-        <div class="col-md-3">
-          <h5 class="title-bot-menu">CHÍNH SÁCH MUA HÀNG</h5>
+          <h4 class="title-bot-menu">CHĂM SÓC KHÁCH HÀNG</h4>
           <ul>
             <li>
               <a href="">
@@ -227,7 +216,7 @@
 
         <!-- Thời gian mở cửa -->
         <div class="col-md-3">
-          <h5 class="title-bot-menu">THỜI GIAN MỞ CỬA</h5>
+          <h4 class="title-bot-menu">THỜI GIAN MỞ CỬA</h4>
           <ul>
             <li>
               Thứ 2 - Thứ 6: 8AM - 10PM
@@ -241,9 +230,9 @@
           </ul>
         </div>
 
-        <!-- Kết nối với TIME -->
+        <!-- Kết nối -->
         <div class="col-md-3">
-          <h5 class="title-bot-menu">KẾT NỐI VỚI TIME</h5>
+          <h4 class="title-bot-menu">KẾT NỐI VỚI TIME</h4>
           <ul>
             <li>
               <a href="">
@@ -258,13 +247,27 @@
             </li>
           </ul>
         </div>
+
+        <!-- Thông tin liên hệ -->
+        <div class="col-md-3 ">
+          <h4 class="title-bot-menu">THÔNG TIN LIÊN HỆ</h4>
+          <ul>
+            <li>
+              <a href="">
+                Hệ thống cửa hàng
+              </a>
+            </li>
+            <li>
+              Hotline: 0912.345.678
+            </li>
+            <li>
+              Email: timewatches@time.com
+            </li>
+          </ul>
+        </div>
       </div> <!-- end-row-menu -->
     </div> <!-- end-div-footer -->
   </footer>
-
-
-
-
 
 
   <script type="text/javascript" src="library/jquery-3.4.1.min.js"></script>

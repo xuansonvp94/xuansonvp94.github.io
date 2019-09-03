@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Đơn hàng</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+  <link rel="stylesheet" type="text/css" href="css/all.css"/>
+  <link rel="stylesheet" type="text/css" href="css/cart.css"/>
+  <link rel="stylesheet" type="text/css" href="library/font-awesome/css/all.css"/>
+  <link rel="stylesheet" type="text/css" href="library/bootstrap/css/bootstrap.min.css"/>
+  <link rel="icon" type="image/png" href="images/home/fav.png" />
+</head>
+<body>
+
+  <!-- TOP -->
+  <div class="top navbar text-white">
+    <div class="container-fluid">
+      <ul class="nav">
+        <li class="nav-item">
+          <i class="fas fa-phone-alt"></i> 0912345678
+        </li> 
+        <li class="nav-item">
+          <i class="fas fa-map-marker-alt"></i> 72 Nguyễn Trãi - Thanh Xuân - Hà Nội
+        </li>
+      </ul>
+
+      <ul class="nav">
+        <li class="nav-item">
+          <i class="fas fa-search"></i> <input type="" name="" placeholder="Tìm Kiếm">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Tài Khoản</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#"> <i class="fas fa-shopping-cart"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- TOP -->
+
+  <!-- MAIN-MENU -->
+  <div class="main-menu sticky-top">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-md">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">TRANG CHỦ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">VỀ TIME</a>
+            </li>
+            <li class="nav-item menu-active">
+              <a class="nav-link">SẢN PHẨM</a>
+              <ul class="sub-menu">
+                <li><a href="product.html">ĐỒNG HỒ NAM</a></li>
+                <li><a href="#">ĐỒNG HỒ NỮ</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="logo">
+            <a class="navbar-brand" href="#"><img src="images/home/LOGO.png"/></a>
+          </div>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link">THƯƠNG HIỆU</a>
+              <ul class="sub-menu">
+                <li><a href="trademark.html">ORIENT</a></li>
+                <li><a href="#"></a>ROLEX</li>
+                <li><a href="#"></a>CITIZEN</li>
+                <li><a href="#"></a>SEIKO</li>
+                <li><a href="#"></a>TISSOT</li>
+                <li><a href="#"></a>DANIEL WELLINGTON</li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">BÀI VIẾT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="store.html">CỬA HÀNG</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- MAIN-MENU -->
+ 
+  <section>
+
+    <div class="section-padding">
+      <h1 class="text-center">ĐƠN HÀNG</h1>
+    </div>
+
+    <div class="row section-padding">
+      <!-- Receipt -->
+      <div class="col-12">
+        <table class="receipt">
+          <thead></thead>ad>
+            <tr>
+              <th class="">SẢN PHẨM</th>
+              <th class="">TÊN SẢN PHẨM</th>
+              <th class="">SỐ LƯỢNG</th>
+              <th class="">ĐƠN GIÁ</th>
+              <th class="">TỔNG GIÁ</th>
+              <th class="">&nbsp;</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="">
+              <td class="">
+                <a href="">
+                  <img src="images/cart/cart.png" class="img-fluid">
+                </a>
+              </td>
+              <td class="">
+                <a href="#">Đồng hồ nam Rolex Datejust</a> 
+              </td>
+              <td class="">
+                <div class="">
+                  <button class="" onclick="" type="button">-</button>
+                  <input id="qty" type="text" name="" value="1" class="" size="4">
+                  <button class="" onclick="" type="button">+</button>
+                </div>
+              </td>
+              <td class="product-price">
+                150.000.000
+              </td>
+              <td class="product-subtotal">
+
+              </td>
+              <td class="product-remove">
+                <button><i class="far fa-trash-alt"></i></button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="row">
+          <div class="col-md-6">
+            <a href="product.html" class="link-to continue">QUAY LẠI TRANG SẢN PHẨM</a>
+          </div>
+          <div class="col-md-6 text-right">
+            THÀNH TIỀN:<span class="red">150.000.000</span><span class="red">VNĐ</span>
+          </div>
+        </div>
+      </div>
+      <!-- Receipt -->
+
+      <!-- customer info -->
+      <div class="col-md-6">
+        <div>THÔNG TIN ĐẶT HÀNG</div>
+
+        <div class="float-left"> 
+          Họ tên  (<span class="red">*</span>) 
+        </div>
+        <div class="float-left"> 
+          <input type="" name="">
+        </div>
+
+        <div class="clear-float">
+          <div class="float-left"> 
+            Điện thoại  (<span class="red">*</span>)  
+          </div>
+          <div class="float-left"> 
+            <input type="" name="">
+          </div>
+        </div>
+
+        <div class="clear-float">
+          <div class="float-left"> 
+            Địa chỉ  (<span class="red">*</span>)  
+          </div>
+          <div class="float-left"> 
+            <input type="" name="">
+          </div>
+        </div>
+
+        <div class="clear-float">
+          <div class="float-left"> 
+            Email  
+          </div>
+          <div class="float-left"> 
+            <input type="" name="">
+          </div>
+        </div>
+
+        <div class="clear-float">
+          <div class="float-left"> 
+            Ghi chú 
+          </div>
+          <div class="float-left"> 
+            <input type="" name="">
+          </div>
+        </div>
+        
+        <div class="clear-float">
+          <a href="">
+            <button class="">THANH TOÁN KHI NHẬN HÀNG</button>
+          </a>
+        </div>
+        
+      </div>
+      <!-- customer info -->
+      
+      <!-- promotion code -->
+      <div class="col-md-6">
+        <div>MÃ GIẢM GIÁ</div>
+        <input type="" name="">
+        <div>
+          <a href="">
+            <button class="">THANH TOÁN KHI NHẬN HÀNG</button>
+          </a>
+        </div>
+      </div>
+      <!-- promotion code -->
+    </div>
+    <!-- row -->
+  </section>
+  
+
+
+  <!-- FOOTER -->
+  <footer class="section-padding margin-top">
+    <div class="container-fluid">
+
+      <!-- LOGO -->
+      <div class="row">
+        <div class="col-12 text-center">
+          <a href="">
+            <img src="images/home/logo.png">
+          </a>
+        </div>
+      </div>
+
+
+      <!-- MENU -->
+      <div class="row">
+
+        <!-- Thông tin liên hệ -->
+        <div class="col-md-3">
+          <h5 class="title-bot-menu">THÔNG TIN LIÊN HỆ</h5>
+          <ul>
+            <li>
+              <a href="">
+                Hệ thống cửa hàng
+              </a>
+            </li>
+            <li>
+              Hotline: 0912.345.678
+            </li>
+            <li>
+              Email: timewatches@time.com
+            </li>
+          </ul>
+        </div>
+
+        <!-- Chính sách mua hàng -->
+        <div class="col-md-3">
+          <h5 class="title-bot-menu">CHÍNH SÁCH MUA HÀNG</h5>
+          <ul>
+            <li>
+              <a href="">
+                Hướng dẫn mua hàng
+              </a>
+            </li>
+            <li>
+              <a href="">Chính sách đổi trả</a>
+            </li>
+            <li>
+              <a href="">Chính sách bảo hành</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Thời gian mở cửa -->
+        <div class="col-md-3">
+          <h5 class="title-bot-menu">THỜI GIAN MỞ CỬA</h5>
+          <ul>
+            <li>
+              Thứ 2 - Thứ 6: 8AM - 10PM
+            </li>
+            <li>
+              Thứ 7 - Chủ Nhật: 9AM - 9PM
+            </li>
+            <li>
+              Nghỉ các ngày Lễ , Tết
+            </li>
+          </ul>
+        </div>
+
+        <!-- Kết nối với TIME -->
+        <div class="col-md-3">
+          <h5 class="title-bot-menu">KẾT NỐI VỚI TIME</h5>
+          <ul>
+            <li>
+              <a href="">
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a href="">Instagram</a>
+            </li>
+            <li>
+              <a href="">Twitter</a>
+            </li>
+          </ul>
+        </div>
+      </div> <!-- end-row-menu -->
+    </div> <!-- end-div-footer -->
+  </footer>
+
+  <script type="text/javascript" src="library/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="library/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
+    

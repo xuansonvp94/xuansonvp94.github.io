@@ -11,11 +11,8 @@
 	font-weight: bold;
 }
 
-.clear-float {
-	clear: both;
-}
 
 .hr-store {
-	width: 50%;
+	width: : 50%;
 	color: #767373;
 }
