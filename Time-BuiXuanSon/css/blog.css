@@ -1,11 +1,41 @@
 .blog-top {
 	position: relative;
+	overflow: hidden;
+
 }
 
 .title-blog-top {
 	position: absolute;
-	bottom: 10px;
-	left: 10px;
+	bottom: 9%;
+	left: 6%;
+}
+
+
+.blog-top img {
+	width: 100%;
+	transition: all 1s linear;
+	height: 27rem;
+}
+
+.card-img-top {
+	width: 100% !important;
+}
+
+.blog-search input {
+	width: 15rem;
+	height: 2.5rem;
+	border: 1px solid #9B9D9D;
+    border-radius: 5px;
+}
+
+.icon-search {
+	width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid #9B9D9D;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
