@@ -23,7 +23,7 @@ a:hover {
 
 p {
 	line-height: 30px;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.05em;
 }
 
 h1 {
@@ -35,13 +35,13 @@ h1 {
 h2 {
 	font-size: 20px !important;
 	line-height: 24px !important;
-	letter-spacing: 0.16em;
+	letter-spacing: 0.05em;
 }
 
 h3 {
 	font-size: 16px !important;
 	line-height: 20px !important;
-	letter-spacing: 0.16em !important;
+	letter-spacing: 0.05em !important;
 
 }
 
@@ -176,7 +176,6 @@ hr {
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 0.09em;
-    transition: 
 }
 
 .main-menu li.nav-item:hover {
@@ -257,21 +256,32 @@ hr {
 
 
 /*Blog - search */
+.blog-search {
+	padding: 10% 8% 10% 8%;
+}
+
+
 .background-white-shadow {
 	background-color: #ffffff;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
 }
 
 .blog-search input {
-	width: 15rem;
-	height: 2.5rem;
+	height: 2.3rem;
 	border: 1px solid #9B9D9D;
     border-radius: 5px;
+   	width: 100%;
+   	padding-left: 15px;
 }
 
-.icon-search {
-	width: 2.5rem;
-    height: 2.5rem;
+.search-input {
+	width: 100%;
+    padding-right: 9%;
+}
+
+.search-btn {
+	width: 2.3rem;
+    height: 2.3rem;
     border: 1px solid #9B9D9D;
     border-radius: 5px;
     display: flex;
@@ -279,6 +289,15 @@ hr {
     align-items: center;
 }
 
+.blog-search li {
+	list-style-type: none;
+	margin-bottom: 10px;
+}
+
+
+.mt-search {
+	margin-top: 10% !important;
+}
 
 
 /*Sort-menu*/

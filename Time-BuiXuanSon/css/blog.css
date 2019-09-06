@@ -21,22 +21,20 @@
 	width: 100% !important;
 }
 
-.blog-search input {
-	width: 15rem;
-	height: 2.5rem;
-	border: 1px solid #9B9D9D;
-    border-radius: 5px;
+.list-blog .card, .blog-search {
+	width: 95%;
 }
 
-.icon-search {
-	width: 2.5rem;
-    height: 2.5rem;
-    border: 1px solid #9B9D9D;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.card-body {
+	text-align: left !important;
 }
+
+
+/*Search*/
+
+
+
+
 
 
 
