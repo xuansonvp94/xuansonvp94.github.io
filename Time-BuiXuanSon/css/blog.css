@@ -34,10 +34,16 @@
 	margin: 0 !important;
 }
 
-/*Search*/
+/*List-blog*/
+
+.list-blog  .card-title {
+	height: 2.5rem;
+}
 
 
-
+.list-blog .card-text {
+	height: 8rem;
+}
 
 
 
