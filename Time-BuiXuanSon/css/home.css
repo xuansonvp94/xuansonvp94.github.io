@@ -129,12 +129,6 @@
 	max-width: 992px !important;
 }
 
-.read-more {
-	width: fit-content;
-	border-bottom: 1px solid #1c1b1b;
-	margin: auto;
-	font-weight: bold;
-}
 
 .why-choose p {
 	letter-spacing: 0 !important;

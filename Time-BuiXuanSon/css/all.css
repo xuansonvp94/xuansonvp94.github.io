@@ -22,9 +22,11 @@ a:hover {
 }
 
 p {
-	line-height: 30px;
+	line-height: 27px;
 	letter-spacing: 0.05em;
+	
 }
+
 
 h1 {
 	font-size: 28px !important;
@@ -54,6 +56,11 @@ h4 {
 h5 {
 	font-size: 16px !important;
 	line-height: 20px !important;
+}
+
+.justify-text {
+	text-align: justify;
+  	text-justify: inter-word;
 }
 
 .font-weight-600 {
@@ -254,6 +261,12 @@ hr {
 	width: 13rem !important;
 }
 
+.read-more {
+	width: fit-content;
+	border-bottom: 1px solid #1c1b1b;
+	margin: auto;
+	font-weight: bold;
+}
 
 /*Blog - search */
 .blog-search {
