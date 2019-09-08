@@ -4,12 +4,11 @@
 	<title>Đồng hồ Rolex Datejust</title>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/all.css"/>
 	<link rel="stylesheet" type="text/css" href="css/product-details.css"/>
 	<link rel="stylesheet" type="text/css" href="library/font-awesome/css/all.css"/>
 	<link rel="stylesheet" type="text/css" href="library/bootstrap/css/bootstrap.min.css"/>
-	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
-	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 	<link rel="icon" type="image/png" href="images/home/fav.png"/>
 </head>
 <body>
@@ -51,13 +50,13 @@
 
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav mr-auto">
-						<li class="nav-item menu-active mr-5">
+						<li class="nav-item mr-5">
 							<a class="nav-link" href="index.html">TRANG CHỦ</a>
 						</li>
 						<li class="nav-item mr-5">
 							<a class="nav-link" href="about.html">VỀ TIME</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item menu-active">
 							<a class="nav-link">SẢN PHẨM</a>
 							<ul class="sub-menu">
 								<li><a href="product.html">ĐỒNG HỒ NAM</a></li>
@@ -93,45 +92,43 @@
 	</div>
 	<!-- MAIN-MENU -->
 
-
 	<section class="container-fluid">
 		<!-- Detail -->
-		<div class="row container section-padding">
+		<div class="row container section-padding m-auto">
 			<!-- img detail -->
-			<div class="col-md-6">
-				<div class="slider-for">
-					<div class=""><img src="images/product-details/detail.png" class="img-fluid"></div>
-					<div class=""><img src="images/product-details/detail1.png" class="img-fluid"></div>
-					<div class=""><img src="images/product-details/detail2.png" class="img-fluid"></div>
-					<div class=""><img src="images/product-details/detail3.png" class="img-fluid"></div>
-					<div class=""><img src="images/product-details/detail4.png" class="img-fluid"></div>
-				</div>
-	
-				<div class=".slider-nav row">
-				<!-- <div class="col-md-3"><img src="images/product-details/detail.png" class="img-thumbnail"></div>  -->
-					<div class="col-md-3"><img src="images/product-details/detail1.png" class="img-thumbnail"></div>
-					<div class="col-md-3"><img src="images/product-details/detail2.png" class="img-thumbnail"></div>
-					<div class="col-md-3"><img src="images/product-details/detail3.png" class="img-thumbnail"></div>
-					<div class="col-md-3"><img src="images/product-details/detail4.png" class="img-thumbnail"></div>
+			<div class="col-md-6 img-detail">
+				<div class="row text-center">
+					<div class="col-12 mb-4"><img src="images/product-details/detail.png" class="img-fluid big-img-detail"></div>
+					<div class="row">
+						<div class="col-3"><img src="images/product-details/detail1.png" class="img-thumbnail"></div>
+						<div class="col-3"><img src="images/product-details/detail2.png" class="img-thumbnail"></div>
+						<div class="col-3"><img src="images/product-details/detail3.png" class="img-thumbnail"></div>
+						<div class="col-3"><img src="images/product-details/detail4.png" class="img-thumbnail"></div>
+					</div>
 				</div>
 			</div>
 			<!-- img detail -->
 
 			<!-- Description -->
-			<div class="col-md-6">
-				<h2>ĐỒNG HỒ ROLEX DATEJUST</h2>
-				<h3>RL-0001</h3>
-				<h5>150.000.000 VNĐ</h5>
-				<p>Phiên bản Datejust vượt trội trong phong cách thời trang nhờ vào các tính năng và thẩm mỹ  của nó. Phiên bản Datejust đã tồn tại qua nhiều thời đại, luôn được giữ lại những quy tắc cấu thành sản phẩm - một trong những yếu tố biểu tượng và dễ nhận diện của đồng hồ</p>
+			<div class="col-md-6 describe d-flex align-items-center">
 				<div>
-					<a href="#">
-						<button type="button" class="btn dark-btn">THÊM VÀO GIỎ HÀNG</button>
-					</a>
-				</div>
-				<div>
-					<a href="cart.html">
-						<button type="button" class="btn dark-btn">MUA NGAY</button>
-					</a>
+					<h2>ĐỒNG HỒ ROLEX DATEJUST</h2>
+					<h3 class="product-code">RL-0001</h3>
+					<h5 class="font-weight-600">150.000.000 VNĐ</h5>
+					<hr>
+					<div class="justify-text">
+						<p>Phiên bản Datejust vượt trội trong phong cách thời trang nhờ vào các tính năng và thẩm mỹ  của nó. Phiên bản Datejust đã tồn tại qua nhiều thời đại, luôn được giữ lại những quy tắc cấu thành sản phẩm - một trong những yếu tố biểu tượng và dễ nhận diện của đồng hồ</p>
+					</div>
+					<div class="mt-5 mb-4">
+						<a href="#">
+							<button type="button" class="btn bg-none-btn">THÊM VÀO GIỎ HÀNG</button>
+						</a>
+					</div>
+					<div>
+						<a href="cart.html">
+							<button type="button" class="btn dark-btn">MUA NGAY</button>
+						</a>
+					</div>
 				</div>
 			</div>
 			<!-- Description -->
@@ -139,63 +136,77 @@
 		<!-- Detail -->
 
 		<!-- Information -->
-		<div class="row img-fluid">
-			<div class="col-md-4 info">
-				<table>
-					<tr>
-						<th>
-							<img src="images/product-details/info.png">THÔNG TIN SẢN PHẨM
-						</th>
-					</tr>
-					<tr>
-						<td>
-						<div>Nhãn hiệu:	Olym Pianus</div>
-						<div>Nguồn gốc:	Thụy Sỹ</div>
-						<div>Kiểu máy: Automatic</div>
-						<div>Kích cỡ: 40 mm</div>
-						<div>Chất liệu vỏ: Thép không gỉ 316/Mạ PVD</div>
-						<div>Chất liệu dây:	Thép không gỉ 316L/Mạ PVD</div>
-						<div>Chất liệu kính: Kính Sapphire</div>
-						<div>Bảo hiểm: 5 năm tiêu chuẩn Thụy Sỹ</div>
-						<div>Bảo hành quốc tế: 2 năm</div>
-					</td>
-					</tr>
-				</table>
+		<div class="row section-padding wrap-info">
+			<div class="col-md-4">
+				<div class="info">
+					<table>
+						<tr>
+							<th>
+								<h2 class="red font-weight-600">
+									<i class="far fa-clipboard"></i>THÔNG TIN SẢN PHẨM
+								</h2>
+							</th>
+						</tr>
+						<tr>
+							<td>
+								<div><p>Nhãn hiệu:	Olym Pianus</p></div>
+								<div><p>Nguồn gốc:	Thụy Sỹ</p></div>
+								<div><p>Kiểu máy: Automatic</p></div>
+								<div><p>Kích cỡ: 40 mm</p></div>
+								<div><p>Chất liệu vỏ: Thép không gỉ 316/Mạ PVD</p></div>
+								<div><p>Chất liệu dây:	Thép không gỉ 316L/Mạ PVD</p></div>
+								<div><p>Chất liệu kính: Kính Sapphire</p></div>
+								<div><p>Bảo hiểm: 5 năm tiêu chuẩn Thụy Sỹ</p></div>
+								<div><p>Bảo hành quốc tế: 2 năm</p></div>
+							</td>
+						</tr>
+					</table>
+				</div>
 			</div>
-			<div class="col-md-4 info">
-				<table>
-					<tr>
-						<th>
-							<i class="fas fa-user-shield"></i>CHẾ ĐỘ BẢO HÀNH</div>
-						</th>
-					</tr>
-					<tr>
-						<td>
-							<div>Bảo hiểm cả lỗi người dùng trong 5 năm</div>
-							<div>1 đổi 1 trong vòng 30 ngày nếu lỗi của nhà sản xuất</div>
-							<div>Đền gấp 10 lần nếu phát hiện hàng fake</div>
-							<div>Free ship toàn quốc, thanh toán khi nhận hàng</div>
-						</td>
-					</tr>
-				</table>
+			<div class="col-md-4">
+				<div class="info">
+					<table>
+						<tr>
+							<th>
+								<h2 class="red font-weight-600">
+									<i class="fas fa-user-shield"></i>
+									CHẾ ĐỘ BẢO HÀNH
+								</h2>
+							</th>
+						</tr>
+						<tr>
+							<td>
+								<div><p>Bảo hiểm cả lỗi người dùng trong 5 năm</p></div>
+								<div><p>1 đổi 1 trong vòng 30 ngày nếu lỗi của nhà sản xuất</p></div>
+								<div><p>Đền gấp 10 lần nếu phát hiện hàng fake</p></div>
+								<div><p>Free ship toàn quốc, thanh toán khi nhận hàng</p></div>
+							</td>
+						</tr>
+					</table>
+				</div>
 			</div>
 				
-			<div class="col-md-4 info">
-				<table>
-					<tr>
-						<th>
-							<i class="fas fa-water"></i>ĐỘ CHỐNG NƯỚC
-						</th>
-					</tr>
-					<tr>
-						<td>
-							<div>ĐỘ CHỐNG NƯỚC 100M (10ATM)</div>
-							<div>Có thể đeo đồng hồ khi rửa tay, đi mưa, bơi lội</div>
-							<div>Không điều chỉnh núm đồng hồ khi ở dưới nước</div>
-							<div>Không đeo đồng hồ khi đi tắm hơi.</div>
-						</td>
-					</tr>
-				</table>
+			<div class="col-md-4">
+				<div class="info">
+					<table>
+						<tr>
+							<th>
+								<h2 class="red font-weight-600">
+									<i class="fas fa-water"></i>
+									ĐỘ CHỐNG NƯỚC
+								</h2>
+							</th>
+						</tr>
+						<tr>
+							<td>
+								<div><p>ĐỘ CHỐNG NƯỚC 100M (10ATM)</p></div>
+								<div><p>Có thể đeo đồng hồ khi rửa tay, đi mưa, bơi lội</p></div>
+								<div><p>Không điều chỉnh núm đồng hồ khi ở dưới nước</p></div>
+								<div><p>Không đeo đồng hồ khi đi tắm hơi.</p></div>
+							</td>
+						</tr>
+					</table>
+				</div>
 			</div>
 		</div>
 		<!-- Information -->
@@ -204,7 +215,7 @@
 		<!-- Certificate -->
 		<div>
 			<div class="text-center section-padding">
-				<h2>CHỨNG NHẬN ĐỒNG HỒ CHÍNH HÃNG</h2>
+				<h2 class="font-weight-600">CHỨNG NHẬN ĐỒNG HỒ CHÍNH HÃNG</h2>
 			</div>
 			<div class="row section-padding">
 				<div class="col-md-3">
@@ -227,52 +238,60 @@
 		<!-- Related Products -->
 		<div>
 			<div class="section-padding text-center">
-				<h2>SẢN PHẨM LIÊN QUAN</h2>
+				<h2 class="font-weight-600">SẢN PHẨM LIÊN QUAN</h2>
 			</div>
 			<div class="section-padding">
 				<div class="row">
 					<div class="col-md-3">
-						<div class="card">
-							<div class="card-body">
-								<img src="images/home/featured1.png" class="card-img-top">
-								<h2 class="text-center">ROLEX</h2>
-								<h3 class="product-code text-center">RL-0001</h3>
-								<h3 class="price text-center">15.000.000</h3>
+						<a href="#">
+							<div class="card product-card">
+								<div class="card-body">
+									<img src="images/home/featured1.png" class="card-img-top">
+									<h2 class="text-center">TISSOT</h2>
+									<h3 class="product-code text-center">RL-0001</h3>
+									<h3 class="font-weight-600 text-center">15.000.000 VNĐ</h3>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 
 					<div class="col-md-3">
-						<div class="card">
-							<div class="card-body">
-								<img src="images/home/featured2.png" class="card-img-top">
-								<h2 class="text-center">CITIZEN</h2>
-								<h3 class="product-code text-center">RL-0001</h3>
-								<h3 class="price text-center">15.000.000</h3>
+						<a href="#">
+							<div class="card product-card">
+								<div class="card-body">
+									<img src="images/home/featured2.png" class="card-img-top">
+									<h2 class="text-center">TISSOT</h2>
+									<h3 class="product-code text-center">RL-0001</h3>
+									<h3 class="font-weight-600 text-center">15.000.000 VNĐ</h3>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 
 					<div class="col-md-3">
-						<div class="card">
-							<div class="card-body">
-								<img src="images/home/featured3.png" class="card-img-top">
-								<h2 class="text-center">TISSOT</h2>
-								<h3 class="product-code text-center">RL-0001</h3>
-								<h3 class="price text-center">15.000.000</h3>
+						<a href="#">
+							<div class="card product-card">
+								<div class="card-body">
+									<img src="images/home/featured3.png" class="card-img-top">
+									<h2 class="text-center">TISSOT</h2>
+									<h3 class="product-code text-center">RL-0001</h3>
+									<h3 class="font-weight-600 text-center">15.000.000 VNĐ</h3>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 
 					<div class="col-md-3">
-						<div class="card">
-							<div class="card-body">
-								<img src="images/home/featured4.png" class="card-img-top">
-								<h2 class="text-center">DW</h2>
-								<h3 class="product-code text-center">RL-0001</h3>
-								<h3 class="price text-center">15.000.000</h3>
+						<a href="#">
+							<div class="card product-card">
+								<div class="card-body">
+									<img src="images/home/featured4.png" class="card-img-top">
+									<h2 class="text-center">TISSOT</h2>
+									<h3 class="product-code text-center">RL-0001</h3>
+									<h3 class="font-weight-600 text-center">15.000.000 VNĐ</h3>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>

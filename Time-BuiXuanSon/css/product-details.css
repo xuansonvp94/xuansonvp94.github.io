@@ -1,5 +1,49 @@
-.info {
+/*Detail*/
+.describe button {
+	width: 75%;
+}
+
+.img-detail .big-img-detail {
+	max-width: 66% !important;
+}
+
+.img-detail .row {
+	padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.img-detail .col-3 {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+hr {
+	margin-top: 1.5rem !important;
+	margin-bottom: 1.5rem !important;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1055px !important;
+	}
+}
+/*Detail*/
+
+
+/*Information*/
+.wrap-info .col-md-4 {
+	padding: 0px 1.5rem 0px 1.5rem;
+}
+
+ .info {
 	background: #FFFFFF;
 	border: 1px solid #D8DAD9;
+	padding: 1.5rem;
+	height: 28rem;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.info i {
+	font-size: 30px;
+	margin-right: 1rem;
 }

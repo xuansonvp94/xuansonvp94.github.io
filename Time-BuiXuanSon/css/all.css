@@ -42,7 +42,7 @@ h2 {
 
 h3 {
 	font-size: 16px !important;
-	line-height: 20px !important;
+	line-height: 24px !important;
 	letter-spacing: 0.05em !important;
 
 }
@@ -54,8 +54,9 @@ h4 {
 }
 
 h5 {
-	font-size: 16px !important;
-	line-height: 24px !important;
+	font-size: 26px !important;
+	line-height: 32px !important;
+	letter-spacing: 0.1em;
 }
 
 .justify-text {
@@ -82,7 +83,7 @@ h5 {
 }
 
 hr {
-	margin-top: 60px !important;
+	margin-top: 3.5rem !important;
     margin-bottom: 0rem !important;
 }
 
@@ -255,6 +256,16 @@ hr {
 	background: none !important;
 	border: 1px solid #ffffff !important;
 	color: #ffffff !important
+}
+
+.bg-none-btn {
+	border: 1px solid #1c1b1b !important;
+	color: #1c1b1b !important;
+}
+
+.bg-none-btn:hover {
+	background: #1c1b1b !important;
+	color: #ffffff !important;
 }
 
 .size-btn-13 {
