@@ -4,11 +4,12 @@
   <title>Đơn hàng</title>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/all.css"/>
   <link rel="stylesheet" type="text/css" href="css/cart.css"/>
   <link rel="stylesheet" type="text/css" href="library/font-awesome/css/all.css"/>
   <link rel="stylesheet" type="text/css" href="library/bootstrap/css/bootstrap.min.css"/>
-  <link rel="icon" type="image/png" href="images/home/fav.png" />
+  <link rel="icon" type="image/png" href="images/home/fav.png"/>
 </head>
 <body>
 
@@ -16,29 +17,29 @@
   <div class="top navbar text-white">
     <div class="container-fluid">
       <ul class="nav">
-        <li class="nav-item">
-          <i class="fas fa-phone-alt"></i> 0912345678
+        <li class="nav-item mr-5">
+          <span class="fas fa-phone-alt"></span>0912345678
         </li> 
         <li class="nav-item">
-          <i class="fas fa-map-marker-alt"></i> 72 Nguyễn Trãi - Thanh Xuân - Hà Nội
+          <span class="fas fa-map-marker-alt"></span> 72 Nguyễn Trãi - Thanh Xuân - Hà Nội
         </li>
       </ul>
 
       <ul class="nav">
         <li class="nav-item">
-          <i class="fas fa-search"></i> <input type="" name="" placeholder="Tìm Kiếm">
+          <a href="#" class="text-white"><span class="fas fa-search"></span></a> <input type="text" name="" autofocus="" placeholder="Tìm Kiếm">
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#">Tài Khoản</a>
+        <li class="nav-item ml-5">
+          <a class="text-white" href="#">Tài Khoản</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#"> <i class="fas fa-shopping-cart"></i></a>
+        <li class="nav-item ml-5">
+          <a class="text-white" href="cart.html"> <i class="fas fa-shopping-cart"></i></a>
         </li>
       </ul>
     </div>
   </div>
   <!-- TOP -->
-
+  
   <!-- MAIN-MENU -->
   <div class="main-menu sticky-top">
     <div class="container-fluid">
@@ -49,13 +50,13 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
+            <li class="nav-item mr-5">
               <a class="nav-link" href="index.html">TRANG CHỦ</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mr-5">
               <a class="nav-link" href="about.html">VỀ TIME</a>
             </li>
-            <li class="nav-item menu-active">
+            <li class="nav-item">
               <a class="nav-link">SẢN PHẨM</a>
               <ul class="sub-menu">
                 <li><a href="product.html">ĐỒNG HỒ NAM</a></li>
@@ -78,10 +79,10 @@
                 <li><a href="#"></a>DANIEL WELLINGTON</li>
               </ul>
             </li>
-            <li class="nav-item">
+            <li class="nav-item ml-5">
               <a class="nav-link" href="blog.html">BÀI VIẾT</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item ml-5">
               <a class="nav-link" href="store.html">CỬA HÀNG</a>
             </li>
           </ul>
@@ -91,8 +92,7 @@
   </div>
   <!-- MAIN-MENU -->
  
-  <section>
-
+  <section class="container-fluid">
     <div class="section-padding">
       <h1 class="text-center">ĐƠN HÀNG</h1>
     </div>
@@ -101,38 +101,38 @@
       <!-- Receipt -->
       <div class="col-12">
         <table class="receipt">
-          <thead></thead>ad>
-            <tr>
-              <th class="">SẢN PHẨM</th>
-              <th class="">TÊN SẢN PHẨM</th>
-              <th class="">SỐ LƯỢNG</th>
-              <th class="">ĐƠN GIÁ</th>
-              <th class="">TỔNG GIÁ</th>
-              <th class="">&nbsp;</th>
+          <thead>
+            <tr class="head-receipt">
+              <th class="border-right">SẢN PHẨM</th>
+              <th class="border-right">TÊN SẢN PHẨM</th>
+              <th class="border-right">SỐ LƯỢNG</th>
+              <th class="border-right">ĐƠN GIÁ</th>
+              <th class="border-right">TỔNG GIÁ</th>
+              <th class="" style="width: 4rem;">&nbsp;</th>
             </tr>
           </thead>
           <tbody>
             <tr class="">
-              <td class="">
+              <td class="border-right">
                 <a href="">
                   <img src="images/cart/cart.png" class="img-fluid">
                 </a>
               </td>
-              <td class="">
+              <td class="border-right font-weight-600">
                 <a href="#">Đồng hồ nam Rolex Datejust</a> 
               </td>
-              <td class="">
+              <td class="border-right quantity">
                 <div class="">
                   <button class="" onclick="" type="button">-</button>
-                  <input id="qty" type="text" name="" value="1" class="" size="4">
+                  <input id="qtt-input" type="text" name="" value="1" class="" size="4">
                   <button class="" onclick="" type="button">+</button>
                 </div>
               </td>
-              <td class="product-price">
+              <td class="product-price border-right">
                 150.000.000
               </td>
-              <td class="product-subtotal">
-
+              <td class="product-total border-right">
+                150.000.000
               </td>
               <td class="product-remove">
                 <button><i class="far fa-trash-alt"></i></button>
@@ -141,84 +141,89 @@
           </tbody>
         </table>
 
-        <div class="row">
+        <div class="row mt-4">
           <div class="col-md-6">
-            <a href="product.html" class="link-to continue">QUAY LẠI TRANG SẢN PHẨM</a>
+            <a href="product.html">
+              <button class="btn-back-product">
+                QUAY LẠI TRANG SẢN PHẨM
+              </button>  
+            </a>
           </div>
-          <div class="col-md-6 text-right">
-            THÀNH TIỀN:<span class="red">150.000.000</span><span class="red">VNĐ</span>
+          <div class="col-md-6 font-weight-600 receipt-total d-flex justify-content-end align-items-center">
+            THÀNH TIỀN:<span class="red ml-3">150.000.000</span><span class="red ml-1">VNĐ</span>
           </div>
         </div>
       </div>
       <!-- Receipt -->
 
-      <!-- customer info -->
-      <div class="col-md-6">
-        <div>THÔNG TIN ĐẶT HÀNG</div>
+      <!-- Order -->
+      <div class="col-12">
+        <div class="row section-padding">
+          <!-- customer info -->
+          <div class="col-md-6">
+            <div class="">THÔNG TIN ĐẶT HÀNG</div>
+            <div>
+              <div class="float-left list-info"> 
+                Họ tên  (<span class="red">*</span>) 
+              </div>
+              <div class="float-left"> 
+                <input type="" name="">
+              </div>
+            </div>
 
-        <div class="float-left"> 
-          Họ tên  (<span class="red">*</span>) 
-        </div>
-        <div class="float-left"> 
-          <input type="" name="">
-        </div>
+            <div class="clear-float">
+              <div class="float-left list-info"> 
+                Điện thoại  (<span class="red">*</span>)  
+              </div>
+              <div class="float-left"> 
+                <input type="" name="">
+              </div>
+            </div>
 
-        <div class="clear-float">
-          <div class="float-left"> 
-            Điện thoại  (<span class="red">*</span>)  
+            <div class="clear-float">
+              <div class="float-left list-info"> 
+                Địa chỉ  (<span class="red">*</span>)  
+              </div>
+              <div class="float-left"> 
+                <input type="" name="">
+              </div>
+            </div>
+
+            <div class="clear-float">
+              <div class="float-left list-info"> 
+                Email  
+              </div>
+              <div class="float-left"> 
+                <input type="" name="">
+              </div>
+            </div>
+
+            <div class="clear-float">
+              <div class="float-left list-info"> 
+                Ghi chú 
+              </div>
+              <div class="float-left"> 
+                <input type="" name="">
+              </div>
+            </div>
+
+            <div class="clear-float">
+              <a href="">
+                <button class="btn-cart btn">THANH TOÁN KHI NHẬN HÀNG</button>
+              </a>
+            </div>
           </div>
-          <div class="float-left"> 
+          <!-- customer info -->
+
+          <!-- promotion code -->
+          <div class="col-md-6">
+            <div>MÃ GIẢM GIÁ</div>
             <input type="" name="">
           </div>
+          <!-- promotion code -->
         </div>
-
-        <div class="clear-float">
-          <div class="float-left"> 
-            Địa chỉ  (<span class="red">*</span>)  
-          </div>
-          <div class="float-left"> 
-            <input type="" name="">
-          </div>
-        </div>
-
-        <div class="clear-float">
-          <div class="float-left"> 
-            Email  
-          </div>
-          <div class="float-left"> 
-            <input type="" name="">
-          </div>
-        </div>
-
-        <div class="clear-float">
-          <div class="float-left"> 
-            Ghi chú 
-          </div>
-          <div class="float-left"> 
-            <input type="" name="">
-          </div>
-        </div>
-        
-        <div class="clear-float">
-          <a href="">
-            <button class="">THANH TOÁN KHI NHẬN HÀNG</button>
-          </a>
-        </div>
-        
+        <!-- Order -->
       </div>
-      <!-- customer info -->
-      
-      <!-- promotion code -->
-      <div class="col-md-6">
-        <div>MÃ GIẢM GIÁ</div>
-        <input type="" name="">
-        <div>
-          <a href="">
-            <button class="">THANH TOÁN KHI NHẬN HÀNG</button>
-          </a>
-        </div>
-      </div>
-      <!-- promotion code -->
     </div>
     <!-- row -->
   </section>
