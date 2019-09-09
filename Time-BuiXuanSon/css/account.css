@@ -1,0 +1,9 @@
+section {
+	width: 35%;
+	margin: auto;
+}
+
+section input {
+	border-radius: 0 !important;
+	border: 1px solid #9B9D9D !important;
+}
