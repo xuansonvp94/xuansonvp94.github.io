@@ -33,16 +33,16 @@
 	color: #ABA8A8;
 }
 
-.btn-back-product {
+.btn-cart {
 	background: #FFFFFF;
     border: 1px solid #474644;
     color: #474644;
     font-size: 12px;
     padding: 0.4rem 2rem 0.4rem 2rem;
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
 }
 
-.btn-back-product:hover {
+.btn-cart:hover {
 	background: #474644;
 	color: #FFFFFF;
 }
@@ -52,3 +52,44 @@
 }
 
 /*Customer information*/
+
+.list-info {
+	width: 8rem;
+}
+
+.row-info {
+	height: 3rem;
+	display: flex;
+	align-items: center;
+}
+
+.row-info input, .promotion-code input {
+	height: 2rem;
+	width: 22rem;
+	background: none;
+	border: 1px solid #807E7E;
+	border-radius: 5px;
+	padding: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.promotion-code button {
+	border-radius: 5px;
+}
+
+.btn-pay {
+	padding-left: 31%;
+    padding-right: 31%;
+    margin-top: 1rem;
+}
+
+.btn-pay button {
+	border-radius: 5px;
+	color: #FFFFFF;
+	background: #474644;
+}
+
+.btn-pay button:hover {
+	background:#FFFFFF;
+	color: #474644;
+	border: 1px solid #474644;
+}

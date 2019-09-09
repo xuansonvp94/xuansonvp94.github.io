@@ -225,6 +225,19 @@ hr {
 
 .main-menu .nav-item:hover .sub-menu {
 	display: block;
+	padding: 1rem 0 1rem 0;
+}
+
+.main-menu .nav-item:hover .sub-menu li {
+	height: 2rem;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem 0 1rem;
+}
+
+.main-menu .nav-item .sub-menu li:hover {
+	background: #C4C4C4;
+
 }
 
 
@@ -238,6 +251,7 @@ hr {
 .dark-btn {
 	color: #ffffff !important; 
 	background-color: #1c1b1b !important;
+	transition: all 0.3s linear !important;
 	
 }
 
@@ -250,6 +264,7 @@ hr {
 .light-btn {
 	background: #ffffff !important;
 	color: #1c1b1b !important;
+	transition: all 0.3s linear !important;
 }
 
 .light-btn:hover {
@@ -261,6 +276,7 @@ hr {
 .bg-none-btn {
 	border: 1px solid #1c1b1b !important;
 	color: #1c1b1b !important;
+	transition: all 0.3s linear !important;
 }
 
 .bg-none-btn:hover {
@@ -345,6 +361,7 @@ hr {
 	border: 1px solid #767373;
 	margin: 0px 20px 0px 20px;
 	width: 2.35rem;
+	transition: all 0.5s linear;
 }
 
 .btn-group .btn-page:hover {
