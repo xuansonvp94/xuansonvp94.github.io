@@ -186,12 +186,14 @@ hr {
     letter-spacing: 0.09em;
 }
 
+
 .main-menu li.nav-item:hover {
 	border-bottom: 2px solid #1c1b1b;
 }
 
 .menu-active {
 	border-bottom: 2px solid #1c1b1b;
+
 }
 
 .navbar-brand {
@@ -295,6 +297,10 @@ hr {
 	font-weight: bold;
 }
 
+.read-more:hover {
+	border-bottom: 0px;
+}
+
 /*Blog - search */
 .blog-search {
 	padding: 10% 8% 10% 8%;
@@ -304,7 +310,7 @@ hr {
 .background-white-shadow {
 	background-color: #ffffff;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	 
+
 }
 
 .blog-search input {
@@ -401,12 +407,28 @@ hr {
 
 /*FOOTER*/
 
+@keyframes move-right {
+	0% {
+		    padding-left: 0rem;
+	}
+	50% {
+		    padding-left: 1rem;
+	}
+	100% {
+		padding-left: 1rem;
+	}
+}
+
 footer {
 	background-color: #ffffff;
 }
 
 footer ul li {
 	list-style-type: none;
+}
+
+footer ul li:hover a {
+	animation: move-right 1s ease-in-out;
 }
 
 footer h4 {
