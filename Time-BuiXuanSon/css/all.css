@@ -160,6 +160,14 @@ hr {
 	border: 0 !important;
     border-bottom: 1px solid #ffffff !important;
 }
+
+.mr-menu {
+	margin-right: 3rem;
+}
+
+.ml-menu {
+	margin-left: 3rem;
+}
 /*Top*/
 
 
@@ -201,7 +209,7 @@ hr {
 }
 
 .navbar-brand img {
-	width: 85px;
+	max-width: 85px;
 }
 
 .navbar li a {
@@ -436,6 +444,37 @@ footer h4 {
 }
 
 
+/*Responsive*/
 
+@media only screen and (max-width: 768px) {
+	body {
+		font-size: 12px;
+	}
+
+	.top .nav-item {
+		font-size: 9px;
+	}
+
+	.top span {
+    margin-right: 5px;
+	}
+
+	.mr-menu {
+    margin-right: 1.5rem;
+	}
+
+	.ml-menu {
+    margin-left: 1.5rem;
+	}
+
+	.main-menu li.nav-item {
+		font-size: 9px;
+	}
+
+	.carousel-control-next-icon, .carousel-control-prev-icon {
+		width: 15px;
+		height: 15px;
+	}
+}
 
 

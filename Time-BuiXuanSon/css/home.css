@@ -116,7 +116,7 @@
 }
 
 .why-card {
-	width: 18rem;
+	max-width: 18rem;
 	margin: auto !important;
 	height: 23rem;
 }
