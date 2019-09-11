@@ -47,6 +47,8 @@
 }
 
 
+
+
 /*CUSTOMER'S FEEDBACK*/
 
 .feedback {
@@ -135,7 +137,50 @@
 }
 
 
+@media only screen and (max-width: 768px) {
 
+	.carousel-control-next-icon, .carousel-control-prev-icon {
+		width: 15px !important;
+		height: 15px !important;
+	}
+
+	.btn {
+		font-size: 12px !important;
+	}
+
+	.size-btn-13 {
+		width: 9rem !important;
+	}
+
+	.main-img-lux {
+		display: none;
+	}
+
+	.content {
+    	width: 63%;
+    	height: 5rem;
+	}
+
+	.pt-3rem {
+		padding-top: 0;
+	}
+
+	.btn-play {
+	    width: 60px;
+	    height: 60px;
+	    top: 40%;
+	    left: 46%;
+	}
+
+	.why-choose {
+    	max-width: 730px !important;
+	}
+
+	.card-text {
+	    padding: 0px 1rem;
+	    text-align: justify;
+	}
+}
 
 
 

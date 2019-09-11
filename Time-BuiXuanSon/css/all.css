@@ -59,6 +59,10 @@ h5 {
 	letter-spacing: 0.1em;
 }
 
+.pt-3rem {
+	padding-top: 3rem;
+}
+
 .justify-text {
 	text-align: justify;
   	text-justify: inter-word;
@@ -81,6 +85,7 @@ h5 {
 .section-padding {
 	padding: 60px 0px 0px 0px;
 }
+
 
 hr {
 	margin-top: 3.5rem !important;
@@ -448,7 +453,42 @@ footer h4 {
 
 @media only screen and (max-width: 768px) {
 	body {
-		font-size: 12px;
+		font-size: 12px !important;
+	}
+
+	h1 {
+		font-size: 24px !important;
+		letter-spacing: 0.05em;
+		font-weight: 600 !important;
+	}
+
+	h2 {
+		font-size: 16px !important;
+		line-height: 10px !important;
+		letter-spacing: 0.05em;
+	}
+
+	h3 {
+		font-size: 12px !important;
+		line-height: 24px !important;
+		letter-spacing: 0.05em !important;
+
+	}
+
+	h4 {
+		font-size: 14px !important;
+		line-height: 22px !important;
+		letter-spacing: 0.05em !important;
+	}
+
+	h5 {
+		font-size: 22px !important;
+		line-height: 32px !important;
+		letter-spacing: 0.1em;
+	}
+
+	.section-padding {
+    	padding: 50px 0px 0px 0px;
 	}
 
 	.top .nav-item {
@@ -471,10 +511,10 @@ footer h4 {
 		font-size: 9px;
 	}
 
-	.carousel-control-next-icon, .carousel-control-prev-icon {
-		width: 15px;
-		height: 15px;
+	.card-body {
+	    padding: 1.25rem 0rem 1.25rem 0rem !important;
 	}
+
 }
 
 
