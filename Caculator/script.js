@@ -1,4 +1,4 @@
-//nên gán .calculation thành 1 biến để dễ thao tác, dễ chỉnh sửa
+
 
 //vô hiệu hóa màn hình cal khi load xong html
 $(document).ready(function() {
@@ -6,7 +6,7 @@ $(document).ready(function() {
 	$('.ipt').attr('disabled', 'true'); 
 });
 
-/*hoặc $(function()) {
+/* $(function()) {
 	$('.calculation').attr('disabled', 'true'); 
 	$('.ipt').attr('disabled', 'true'); 
 } */

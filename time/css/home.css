@@ -1,4 +1,7 @@
 /*Header - Carousel*/
+.img-ip {
+	display: none;
+}
 .carousel-indicators li {
 	width: 10px !important;
 	height: 10px !important;
@@ -45,6 +48,8 @@
 .main-img-lux {
 	margin-right: 80px;
 }
+
+
 
 
 
@@ -182,5 +187,32 @@
 	}
 }
 
+@media only screen and (max-width: 576px) {
+	.img-crs {
+		display: none;
+	}
+
+	.img-ip {
+		display: block;
+	}
+
+	.carousel-caption.text-left {
+		text-align: center !important;
+	}
+
+	.carousel-caption {
+    	bottom: 34% !important;
+    	left: 15% !important; 
+	}
+
+
+	.section-padding {
+    	padding: 40px 0px 0px 0px;
+	}
+
+	.product-card .card-img-top {
+    	width: 75% !important;
+	}
+}
 
 
