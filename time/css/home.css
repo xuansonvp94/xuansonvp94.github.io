@@ -50,7 +50,9 @@
 }
 
 
-
+.luxury-slider {
+	display: none !important;
+}
 
 
 
@@ -84,12 +86,21 @@
 	color: #b63327;
 }
 
+.customer-ip {
+	display: none;
+}
+
 
 
 
 
 /*VIDEO*/
 .video {
+	position: relative;
+}
+
+.video-1 {
+	display: none;
 	position: relative;
 }
 
@@ -188,6 +199,7 @@
 }
 
 @media only screen and (max-width: 576px) {
+	/*header*/
 	.img-crs {
 		display: none;
 	}
@@ -201,18 +213,159 @@
 	}
 
 	.carousel-caption {
-    	bottom: 34% !important;
+    	bottom: 32% !important;
     	left: 15% !important; 
 	}
 
-
-	.section-padding {
-    	padding: 40px 0px 0px 0px;
+	.carousel-inner h1 {
+   	 	margin-bottom: 1rem !important;
 	}
 
-	.product-card .card-img-top {
-    	width: 75% !important;
+	.carousel-indicators li {
+    	width: 5px !important;
+    	height: 5px !important;
+    }
+    /*header*/
+
+
+	/*Luxury product*/
+
+	.row.text-center.lux-title.container-fluid {
+    	margin-left: 0;
+    	margin-right: 0;
 	}
+
+	.luxury .carousel {
+		display: none;
+	}
+
+	.luxury-slider {
+		display: block !important;
+		padding-top: 30px;
+	}
+
+	.luxury-slider .lux-product {
+	    margin-right: 7px;
+	    margin-left: 7px;
+	}
+
+	.pt-3rem {
+		padding-top: 3rem;
+	}
+
+	button.slick-next.slick-arrow {
+    	display: none !important;
+	}
+
+	button.slick-prev.slick-arrow {
+    	display: none !important;
+	}
+
+	.container-fluid.luxury {
+		padding-left: 1px !important;
+		padding-right: 1px !important; 
+	}
+
+	.luxury .lux-title {
+		padding-right: 1rem;
+		padding-left: 1rem;
+	}
+
+	.lux-product img {
+		margin-bottom: 1rem;
+	}
+	/*Luxury product*/
+
+
+	/*Feature product*/
+	.nav-pills .nav-link {
+		margin: 0rem .7rem;
+		padding: 0rem 0rem !important;
+	}
+
+	.product-card h2 {
+		margin-bottom: 0;
+	}
+
+	.product-code {
+		margin-bottom: 0;
+	}
+
+	.tab-content .size-btn-13 {
+		margin-top: 0 !important;
+	}
+	/*Feature product*/
+
+	/*New product*/
+	.mb-btn-45px {
+		margin-bottom: 45px !important;
+	}
+	/*New product*/
+
+
+	/*Feedback*/
+	.feedback h1 {
+		padding: 0rem 3rem;
+		line-height: 2rem;
+		margin-bottom: 2rem !important;
+	}
+
+	.feedback .content {
+		width: 80%;
+		height: 9rem;
+	}
+
+	.customer {
+		display: none;
+	}
+
+	.customer-ip {
+		display: block;
+	}
+
+	.feedback .slide {
+		height: 15rem;
+	}
+
+	.customer-career {
+		margin-left: 0;
+	}
+	/*Feedback*/
+
+	/*Video*/
+	.video {
+		display: none;
+	}
+
+	.video-1 {
+		display: block;
+	}
+
+	.video-1 img {
+		width: 100%;
+	}
+
+	.btn-play {
+		width: 50px;
+		height: 50px;
+		top: 42%;
+		left: 44%;
+	}
+	/*Video*/
+
+	/*Why choose*/
+	.why-choose {
+		margin-bottom: 2rem;
+	}
+
+	.why-choose h1 {
+		margin-bottom: 0 !important;
+	}
+
+	.why-choose .col-md-4 {
+		margin-bottom: 1rem;
+	}
+	/*Why choose*/
 }
 
 

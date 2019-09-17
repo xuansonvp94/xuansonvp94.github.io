@@ -15,9 +15,9 @@
 
   <!-- TOP -->
   <div class="top navbar text-white">
-    <div class="container-fluid">
-      <ul class="nav">
-        <li class="nav-item mr-5">
+    <div class="container-fluid top-content">
+      <ul class="nav top-left">
+        <li class="nav-item mr-menu">
           <span class="fas fa-phone-alt"></span>0912345678
         </li> 
         <li class="nav-item">
@@ -25,14 +25,14 @@
         </li>
       </ul>
 
-      <ul class="nav">
+      <ul class="nav top-right">
         <li class="nav-item">
-          <a href="#" class="text-white"><span class="fas fa-search"></span></a> <input type="text" name="" autofocus="" placeholder="Tìm Kiếm">
+          <a href="#" class="text-white"><span class="fas fa-search"></span></a> <input type="text" name="" placeholder="Tìm Kiếm">
         </li>
-        <li class="nav-item ml-5">
+        <li class="nav-item ml-menu">
           <a class="text-white" href="account.html">Tài Khoản</a>
         </li>
-        <li class="nav-item ml-5">
+        <li class="nav-item ml-menu">
           <a class="text-white" href="cart.html"> <i class="fas fa-shopping-cart"></i></a>
         </li>
       </ul>
@@ -43,46 +43,60 @@
   <!-- MAIN-MENU -->
   <div class="main-menu sticky-top">
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-md">
+      <nav class="navbar navbar-light navbar-expand-md">
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
+        </button> 
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item mr-5">
+        <div class="logo-1">
+          <a class="navbar-brand" href="index.html"><img src="images/home/LOGO.png" class="img-fluid" /></a>
+        </div>
+
+        <div class="icon-menu">
+          <a href="#"><i class="fas fa-search"></i></a>
+          <a href="account.html"><i class="fas fa-user"></i></a>
+        </div>
+
+        <div class="text-center collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto text-left">
+            <li class="nav-item menu-active mr-menu">
               <a class="nav-link" href="index.html">TRANG CHỦ</a>
             </li>
-            <li class="nav-item mr-5">
+            <li class="nav-item mr-menu">
               <a class="nav-link" href="about.html">VỀ TIME</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link">SẢN PHẨM</a>
-              <ul class="sub-menu">
-                <li><a href="product.html">ĐỒNG HỒ NAM</a></li>
-                <li><a href="#">ĐỒNG HỒ NỮ</a></li>
-              </ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                SẢN PHẨM
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">ĐỒNG HỒ NAM</a>
+                <a class="dropdown-item" href="#">ĐỒNG HỒ NỮ</a>
+              </div>
             </li>
           </ul>
           <div class="logo">
-            <a class="navbar-brand" href="index.html"><img src="images/home/LOGO.png"/></a>
+            <a class="navbar-brand" href="index.html"><img src="images/home/LOGO.png" class="img-fluid" /></a>
           </div>
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link">THƯƠNG HIỆU</a>
-              <ul class="sub-menu">
-                <li><a href="trademark.html">ORIENT</a></li>
-                <li><a href="#"></a>ROLEX</li>
-                <li><a href="#"></a>CITIZEN</li>
-                <li><a href="#"></a>SEIKO</li>
-                <li><a href="#"></a>TISSOT</li>
-                <li><a href="#"></a>DANIEL WELLINGTON</li>
-              </ul>
+          <ul class="navbar-nav ml-auto text-right">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                THƯƠNG HIỆU
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">ORIENT</a>
+                <a class="dropdown-item" href="#">ROLEX</a>
+                <a class="dropdown-item" href="#">CITIZEN</a>
+                <a class="dropdown-item" href="#">SEIKO</a>
+                <a class="dropdown-item" href="#">TISOT</a>
+                <a class="dropdown-item" href="#">DANIEL WELLINGTON</a>
+              </div>
             </li>
-            <li class="nav-item ml-5">
+            <li class="nav-item ml-menu">
               <a class="nav-link" href="blog.html">BÀI VIẾT</a>
             </li>
-            <li class="nav-item ml-5">
+            <li class="nav-item ml-menu">
               <a class="nav-link" href="store.html">CỬA HÀNG</a>
             </li>
           </ul>

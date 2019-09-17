@@ -505,6 +505,33 @@ footer h4 {
 }
 
 @media only screen and (max-width: 576px) {
+	.container-fluid {
+    	padding-right: 25px !important;
+    	padding-left: 25px !important;
+	}
+
+	h1 {
+		font-size: 20px !important;
+	}
+
+	h2 {
+		line-height: 24px !important;
+		font-size: 14px !important;
+	}
+
+	.section-padding {
+    	padding: 45px 0px 0px 0px;
+	}
+
+	.product-card .card-img-top {
+    	width: 70% !important;
+	}
+
+	.btn-mb {
+			margin-bottom: 45px;
+	}
+
+	/*Menu*/
 	.logo {
 		display: none;
 	}
@@ -532,11 +559,6 @@ footer h4 {
 	.top-content {
 		display: flex !important;
 		justify-content: center !important;
-	}
-
-	.container-fluid {
-    	padding-right: 25px !important;
-    	padding-left: 25px !important;
 	}
 
 	.navbar-toggler {
@@ -567,10 +589,8 @@ footer h4 {
 	.dropdown-item {
     	font-size: 9px;
 	}
+	/*Menu*/
 
-	h2 {
-		line-height: 24px !important;
-	}
 } 
 
 

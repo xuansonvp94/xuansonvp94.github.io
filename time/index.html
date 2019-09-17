@@ -8,6 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="css/all.css"/>
 	<link rel="stylesheet" type="text/css" href="css/home.css"/>
 	<link rel="stylesheet" type="text/css" href="library/font-awesome/css/all.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css"/>
 	<link rel="stylesheet" type="text/css" href="library/bootstrap/css/bootstrap.min.css"/>
 	<link rel="icon" type="image/png" href="images/home/fav.png"/>
 </head>
@@ -142,7 +144,7 @@
 				<div class="carousel-caption d-md-block text-left">
 					<h3>BỘ SƯU TẬP</h3>
 					<h1>ĐỒNG HỒ NỮ</h1>
-					<a href="">
+					<a href="" >
 						<button type="button" class="btn light-btn size-btn-13">XEM NGAY</button>
 					</a>
 				</div>
@@ -178,7 +180,7 @@
 
 	<!-- LUXURY -->
 	<section class="section-padding container-fluid luxury">
-		<div class="row text-center">
+		<div class="row text-center lux-title container-fluid">
 			<div class="col-12">
 				<h1>LUXURY</h1>
 			</div>
@@ -251,6 +253,41 @@
 				<span class="sr-only">Next</span>
 			</a>
 		</div>
+
+		<!-- responsive -->
+		<div class="slider luxury-slider" id="single_item">
+			<div>
+				<div class="text-center lux-product">
+					<img src="images/home/lux-1-1.png" class="d-block img-fluid" alt="Rolex">
+					<h2 class="mb-3">ROLEX DATEJUST</h2>
+					<h2 class="mb-4 font-weight-600">150.000.000 VNĐ</h2>
+					<a href="product-details.html">
+						<button type="button" class="btn dark-btn lux-btn">XEM CHI TIẾT</button>
+					</a>
+				</div>
+			</div>
+			<div>
+				<div class="text-center lux-product">
+					<img src="images/home/lux-1-1.png" class="d-block img-fluid" alt="Rolex">
+					<h2 class="mb-3">ROLEX DATEJUST</h2>
+					<h2 class="mb-4 font-weight-600">150.000.000 VNĐ</h2>
+					<a href="product-details.html">
+						<button type="button" class="btn dark-btn lux-btn">XEM CHI TIẾT</button>
+					</a>
+				</div>
+			</div>
+			<div>
+				<div class="text-center lux-product">
+					<img src="images/home/lux-1-1.png" class="d-block img-fluid" alt="Rolex">
+					<h2 class="mb-3">ROLEX DATEJUST</h2>
+					<h2 class="mb-4 font-weight-600">150.000.000 VNĐ</h2>
+					<a href="product-details.html">
+						<button type="button" class="btn dark-btn lux-btn">XEM CHI TIẾT</button>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- responsive -->
 	</section>
 	<hr>
 	<!-- LUXURY -->
@@ -520,7 +557,6 @@
 	</section> 
 	<!-- FEATURED PRODUCT -->
 
-
 	<!-- NEW PRODUCT  -->
 	<section class="section-padding container-fluid">
 
@@ -651,7 +687,7 @@
 						</div>
 					</div>
 
-					<div class="d-flex justify-content-center">
+					<div class="d-flex justify-content-center mb-btn-45px">
 						<a href="product.html"><button class="btn dark-btn mt-4 size-btn-13">XEM TẤT CẢ </button></a>
 					</div>
 
@@ -770,7 +806,7 @@
 						</div>
 					</div>
 
-					<div class="d-flex justify-content-center">
+					<div class="d-flex justify-content-center mb-btn-45px">
 						<button class="btn dark-btn mt-4 product-btn size-btn-13"> XEM TẤT CẢ</button>
 					</div>
 
@@ -795,19 +831,31 @@
 					<div class="content">
 						<p>Tôi ủng hộ những người đặt lợi ích của khách hàng làm mục tiêu phấn đấu. Vì vậy, tôi đã ủng hộ và lựa chọn TIME WATCHES.</p>
 					</div>
-					<p><span class="customer-name">Phùng Văn Hạnh</span><span class="customer-career">Developer-DTN Software Solutions</span></p>
+					<p class="customer"><span class="customer-name">Phùng Văn Hạnh</span><span class="customer-career">Developer-DTN Software Solutions</span></p>
+					<div class="customer-ip">
+						<div class="mb-1"><span class="customer-name">Phùng Văn Hạnh</span></div>
+						<div><span class="customer-career">Developer-DTN Software Solutions</span></div>
+					</div>
 				</div>
 				<div class="carousel-item text-center div-feedback">
 					<div class="content">
-						<p >Tôi ấn tượng với đội ngũ nhân viên kỹ thuật ở đây với sự tận tâm, chuyên nghiệp. Anh gửi lời chúc mừng và hi vọng TIME WATCHES luôn luôn lớn mạnh.</p>
+						<p >Tôi ấn tượng với đội ngũ nhân viên kỹ thuật ở đây với sự tận tâm, chuyên nghiệp. Anh gửi lời chúc mừng và hi vọng TIME WATCHES luôn lớn mạnh.</p>
 					</div>
-					<p><span class="customer-name">Xuân Bắc</span><span class="customer-career">Diễn viên - MC</span></p>
+					<p class="customer"><span class="customer-name">Xuân Bắc</span><span class="customer-career">Diễn viên - MC</span></p>
+					<div class="customer-ip">
+						<div class="mb-1"><span class="customer-name">Xuân Bắc</span></div>
+						<div><span class="customer-career">Diễn viên - MC</span></div>
+					</div>
 				</div>
 				<div class="carousel-item text-center div-feedback">
 					<div class="content">
 						<p>Uy tín, chất lượng đó là cảm nghĩ của tôi khi mang đồng hồ tới chỗ bạn sửa...hãy luôn giữ hình ảnh đó nhé</p>
 					</div>
-					<p><span class="customer-name">Phùng Thị Hà</span><span class="customer-career">Thư Ký - Công Ty Việt Anh</span></p>
+					<p class="customer"><span class="customer-name">Phùng Thị Hà</span><span class="customer-career">Thư Ký - Công Ty Việt Anh</span></p>
+					<div class="customer-ip">
+						<div class="mb-1"><span class="customer-name">Phùng Thị Hà</span></div>
+						<div><span class="customer-career">Thư Ký - Công Ty Việt Anh</span></div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -824,6 +872,16 @@
 				</a>
 			</div>
 		</div>
+
+		<div class="video-1">
+			<img src="images/home/video-5.png" class="img-fluid"/>
+			<div class="btn-play">
+				<a href="">	
+					<img src="images/home/play.png" class="img-fluid" />
+				</a>
+			</div>
+		</div>
+
 	</section>
 
 
@@ -945,6 +1003,9 @@
 	</footer>
 
 	<script type="text/javascript" src="library/jquery-3.4.1.min.js"></script>
+	
+  	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js" ></script>
 	<script type="text/javascript" src="library/bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/home.js"></script>
 </body>
 </html>
