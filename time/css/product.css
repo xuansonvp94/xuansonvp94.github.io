@@ -5,6 +5,23 @@
 
 
 
+@media only screen and (max-width: 576px) { 
+	button.btn.btn-page {
+    	font-size: 9px;
+	}
+
+	.btn-group .btn-page {
+		margin: 0px 10px 0px 10px;
+		width: 2rem;
+	}	
+
+	.sort-menu {
+		display: none;
+	}
+
+}
+
+
 
 
 

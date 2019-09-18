@@ -16,3 +16,26 @@
 	width: : 50%;
 	color: #767373;
 }
+
+@media only screen and (max-width: 768px) {
+	.width-800 {
+    	padding-right: 3rem;
+    	padding-left: 3rem;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	.width-800 {
+    	padding-right: 1.5rem;
+    	padding-left: 1.5rem;
+	}
+
+	.info {
+		display: none;
+	}
+
+	.float-left.address {
+    	line-height: 1.5rem;
+	}
+}
+
