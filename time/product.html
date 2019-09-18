@@ -117,10 +117,10 @@
       <!-- Sort-menu -->
       <div class="sort-menu margin-top">
         <div class="navbar">
-          <div class="container-fluid sort-1">
+          <div class="container-fluid">
             <ul class="nav">
               <li class="nav-item">
-                <a href="">Dưới 10t triệu</a>
+                <a href="">Dưới 10 triệu</a>
               </li> 
               <li class="nav-item">
                 <a href="">Từ 10 - 20 triệu</a>
@@ -132,7 +132,6 @@
                 <a href="">Trên 30 triệu</a>
               </li>
             </ul>
-
             <div class="dropdown ml-auto">
               <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 SẮP XẾP
@@ -146,16 +145,46 @@
         </div>
       </div>
 
+      <!-- Sort-responsive -->
+      <div class="sort-ip">
+        <div class="row">
+          <div class="sort-1 col-4 border-r">
+            <div id="mySidenav" class="sidenav l-sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <span>THƯƠNG HIỆU</span>
+              <a href="trademark.html">Orient</a>
+              <a href="#">Rolex</a>
+              <a href="#">Citizen</a>
+              <a href="#">Seiko</a>
+              <a href="#">Tissot</a>
+              <a href="#">Daniel Wellington</a>
+            </div>
+            <h6 onclick="openNav()">THƯƠNG HIỆU</h6>
+          </div>
+          <div class="sort-1 col-4 border-r">
+            <div id="mySidenav-right" class="sidenav r-sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNavRight()">&times;</a>
+              <span>LỌC PHÂN KHÚC GIÁ</span>
+              <a href="#">Dưới 10 triệu</a>
+              <a href="#">Từ 10 - 20 triệu</a>
+              <a href="#">Từ 20 - 30 triệu</a>
+              <a href="#">Trên 30 triệu</a>
+            </div>
+            <h6 onclick="openNavRight()" class="text-center">LỌC GIÁ</h6>
+          </div>
+          <div class="sort-1 col-4">
+            <h6>SẮP XẾP GIÁ <i class="fas fa-sort"></i></h6>
+          </div>
+        </div>
+      </div>
       
-      
-
 
       <!-- PRODUCT -->
 
       <div class="container-fluid section-padding">
         <div class="row">
           <!-- Trademark -->
-          <div class="col-md-3">
+          <div class="col-md-3 filter-trademark">
             <div class="mt-3">
               <h2 class="font-weight-600">THƯƠNG HIỆU</h2>
             </div>
@@ -438,6 +467,7 @@
 
   <script type="text/javascript" src="library/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="library/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/product.js"></script>
   
 </body>
 </html>
