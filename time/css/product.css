@@ -12,6 +12,7 @@
 .sidenav {
   height: 100%; 
   width: 0; 
+  top: 0; 
   position: fixed;
   z-index: 1021; 
   background-color: #ffffff;
@@ -23,12 +24,10 @@
 
 .l-sidenav {
 	left: 0;
-	top: 0; 
 }
 
 .r-sidenav {
 	right: 0;
-	top: 0; 
 }
 
 .sort-1.col-4 {
@@ -68,16 +67,7 @@
 /*Side-nav-responsive*/
 
 
-@media only screen and (max-width: 576px) { 
-	button.btn.btn-page {
-    	font-size: 9px;
-	}
-
-	.btn-group .btn-page {
-		margin: 0px 10px 0px 10px;
-		width: 2rem;
-	}	
-
+@media only screen and (max-width: 576px) { 	
 	.sort-menu, .filter-trademark {
 		display: none !important;
 	}
@@ -98,6 +88,19 @@
 	.sort-ip h6 {
 		font-size: 10px !important;
 		margin-bottom: 0 !important;
+	}
+
+	.title-big {
+		margin-bottom: 2rem;
+	}
+
+	.product-card .card-img-top {
+    	width: 60% !important;
+	}
+
+	.product {
+		padding-top: 0 !important;
+		margin-bottom: 2rem;
 	}
 }
 
