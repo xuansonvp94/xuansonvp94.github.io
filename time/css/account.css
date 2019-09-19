@@ -7,3 +7,25 @@ section input {
 	border-radius: 0 !important;
 	border: 1px solid #9B9D9D !important;
 }
+
+@media only screen and (max-width: 768px) {
+	section .form-control, button.btn.dark-btn {
+		font-size: 12px;
+	}
+
+	section .big-title {
+		padding-top: 0;
+	}
+
+	section {
+		margin-top: 12%;
+    	margin-bottom: 12%;
+	}
+
+}
+
+@media only screen and (max-width: 576px) {
+	section {
+		width: 85%;
+	}
+} 

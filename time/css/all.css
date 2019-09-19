@@ -80,7 +80,7 @@ h5 {
 }
 
 .margin-top {
-	margin-top: 4%;
+	margin-top: 5%;
 }
 
 .section-padding {
@@ -114,7 +114,6 @@ hr {
 }
 
 /*Card*/
-
 .product-card {
 	background: none !important;
 	border: 0 !important;
@@ -228,6 +227,10 @@ hr {
 }
 
 .logo-1, .icon-menu {
+	display: none;
+}
+
+li.nav-item.ml-menu.li-cart {
 	display: none;
 }
 
@@ -423,6 +426,7 @@ footer {
 
 footer ul li {
 	list-style-type: none;
+	line-height: 1.7rem;
 }
 
 footer ul li:hover a {
@@ -535,8 +539,10 @@ footer h4 {
 		width: 2rem;
 	}
 
-
 	/*Menu*/
+	li.nav-item.ml-menu.li-cart {
+		display: flex;
+	}
 	.logo {
 		display: none;
 	}
@@ -595,9 +601,6 @@ footer h4 {
     	font-size: 9px;
 	}
 	/*Menu*/
-
-	
-
 } 
 
 
