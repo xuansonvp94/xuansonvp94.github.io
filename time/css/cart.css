@@ -99,6 +99,18 @@
 	display: none;
 }
 
+
+@media only screen and (max-width: 768px) {
+	.row-info input, .promotion-code input {
+		width: 14rem;
+	}
+
+	.btn-pay {
+		padding-right: 0;
+		padding-left: 29%;
+	}
+}
+
 @media only screen and (max-width: 576px) {
 	.receipt-1 {
 		display: none !important;
@@ -108,13 +120,22 @@
 		display: block;
 	}
 
-	.quantity .row {
+	.receipt {
+		box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+		margin-bottom: 2rem;
+	}
+	
+	.head-receipt {
+		height: 2.5rem;
+	}
+
+	.receipt-price .row {
 		margin-left: 0 !important;
 		margin-right: 0 !important;
 		border: 1px solid #E6E6E6;
     	width: fit-content;
 	}
-	.quantity button, .quantity input {
+	.receipt-price button, .receipt-price input {
     	width: 1rem;
     	height: 1rem;
     	font-size: 8px;
@@ -122,24 +143,101 @@
     	border: 0;
 	}
 
-	.quantity button {
+	.receipt-price button {
 		background: none;
 	}
-
-	.quantity input {
-		background: #E6E6E6;
-	}
-
-	td.quantity {
+	
+	td.receipt-price {
 		font-size: 11px;
 		font-weight: bold;
 	}
 
-	/*.img-fluid {
-    	max-width: 50% !important;
-	}*/
-
 	.receipt td {
-    	height: 8rem;
+    	height: 9rem;
 	}
+
+	.receipt-img {
+		width: 25%;
+		}
+
+	td.receipt-name {
+		font-size: 11px;
+    	font-weight: bold;
+	}
+
+	td.product-remove {
+		width: 10%;
+	}
+
+	h1.text-center {
+		margin-bottom: 0 !important;
+	}
+
+	button.btn-cart {
+		font-size: 10px;
+		font-weight: 600;
+		padding: 0.4rem 1rem 0.4rem 1rem;
+		border: 1px solid #C4C4C4;
+	}
+
+	.btn-back-product {
+		margin-bottom: 1rem;
+	}
+
+	.promotion-res td {
+
+	}
+
+	.form-control {
+		font-size: 11px !important;
+	}
+
+	button.btn-cart {
+		border-radius: .25rem;
+	}
+
+	.promotion-code, .order-info {
+		background-color: #FFFFFF;
+		box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+		margin-bottom: 2rem;
+	}
+
+	.promotion-title {
+		line-height: 2.5rem;
+		font-weight: bold;
+		text-align: center;
+		background: #C4C4C4;
+	}
+
+	.promotion-content, .order-info-content {
+		width: 90%;
+    	margin: auto;
+    	padding-top: 1rem;
+    	padding-bottom: 1rem;
+	}
+
+	.promotion-code input {
+		border: 1px solid #C4C4C4;
+	}
+
+	.total-price {
+		line-height: 2.3rem;
+		border: 1px solid #C4C4C4;
+	}
+
+	.order-info-title {
+		line-height: 2.5rem;
+		font-weight: bold;
+		text-align: center;
+		border-bottom: 1px solid #C4C4C4;
+	}
+
+	.btn-pay {
+		width: fit-content;
+    	margin: auto;
+    	padding-left: 0;
+    	padding-right: 0;
+    	margin-bottom: 2rem;
+	}
+
 }

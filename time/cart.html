@@ -254,24 +254,31 @@
     <!-- row -->
 
     <!-- Responsive -->
-    <div class="receipt-2">
+    <div class="receipt-2 section-padding">
+      <div class="btn-back-product">
+        <a href="product.html">
+          <button class="btn-cart">
+            QUAY LẠI TRANG SẢN PHẨM
+          </button>  
+        </a>
+      </div>
       <table class="receipt">
         <thead>
-          <tr  class="head-receipt">
+          <tr class="head-receipt">
             <th colspan="5">SẢN PHẨM</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>
+            <td class="receipt-img">
                <a href="#">
                   <img src="images/cart/cart.png" class="img-fluid">
                 </a>
             </td>
-            <td>
+            <td class="receipt-name">
               <a href="#">Rolex Datejust</a> 
             </td>
-            <td class="quantity" rowspan="2">
+            <td class="receipt-price quantity" rowspan="2">
               <div class="d-flex justify-content-center">
                 <div class="row">
                   <button class="" onclick="" type="button">-</button>
@@ -289,6 +296,58 @@
           </tr>
         </tbody>
       </table>
+    
+      <div class="promotion-code">
+        <div class="promotion-title">MÃ GIẢM GIÁ</div>
+        <div class="promotion-content">
+          <div class="row-info">
+            <input type="text" name="" class="form-control" placeholder="Nhập mã giảm giá">
+          </div> 
+          <div>
+            <a href="#">
+              <button class="btn-cart">
+                Áp dụng
+              </button>  
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="promotion-code">
+        <div class="promotion-title">TỔNG TIỀN</div>
+        <div class="promotion-content text-center">
+          <span class="red font-weight-600" style="font-size: 14px;">150.000.000 VNĐ</span>
+        </div>
+      </div>
+
+      <div class="order-info">
+        <div class="order-info-title">THÔNG TIN ĐẶT HÀNG</div>
+        <div class="order-info-content">
+          <div class="row-info">
+            <input type="text" name="" class="form-control" placeholder="Họ và tên (*)">
+          </div> 
+          <div class="row-info">
+            <input type="text" name="" class="form-control" placeholder="Điện thoại (*)">
+          </div>
+          <div class="row-info">
+            <input type="text" name="" class="form-control" placeholder="Địa chỉ (*)">
+          </div> 
+          <div class="row-info">
+            <input type="text" name="" class="form-control" placeholder="Email">
+          </div> 
+          <div class="row-info">
+            <input type="text" name="" class="form-control" placeholder="Ghi chú">
+          </div> 
+        </div>
+      </div>
+
+      <div class="btn-pay">
+        <a href="">
+          <button class="btn-cart">Thanh toán khi nhận hàng</button>
+        </a>
+      </div>
+
+
     </div>
   </section>
 
