@@ -33,7 +33,7 @@
           <a class="text-white" href="account.html">Tài Khoản</a>
         </li>
         <li class="nav-item ml-menu">
-          <a class="text-white" href="cart.html"> <i class="fas fa-shopping-cart"></i></a>
+          <a class="text-white" href="cart.html">Giỏ Hàng </a>
         </li>
       </ul>
     </div>
@@ -114,7 +114,7 @@
       <h1 class="text-center">ĐƠN HÀNG</h1>
     </div>
 
-    <div class="row section-padding">
+    <div class="row section-padding receipt-1">
       <!-- Receipt -->
       <div class="col-12">
         <table class="receipt">
@@ -136,7 +136,7 @@
                 </a>
               </td>
               <td class="border-right font-weight-600">
-                <a href="#">Đồng hồ nam Rolex Datejust</a> 
+                <a href="#">Rolex Datejust</a> 
               </td>
               <td class="border-right quantity">
                 <div class="">
@@ -193,7 +193,7 @@
                 Điện thoại  (<span class="red">*</span>)  
               </div>
               <div class="float-left"> 
-                <input type="number" name="">
+                <input type="text" name="">
               </div>
             </div>
 
@@ -252,7 +252,47 @@
       </div>
     </div>
     <!-- row -->
+
+    <!-- Responsive -->
+    <div class="receipt-2">
+      <table class="receipt">
+        <thead>
+          <tr  class="head-receipt">
+            <th colspan="5">SẢN PHẨM</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+               <a href="#">
+                  <img src="images/cart/cart.png" class="img-fluid">
+                </a>
+            </td>
+            <td>
+              <a href="#">Rolex Datejust</a> 
+            </td>
+            <td class="quantity" rowspan="2">
+              <div class="d-flex justify-content-center">
+                <div class="row">
+                  <button class="" onclick="" type="button">-</button>
+                  <input id="qtt-input" type="text" name="" value="1" class="" size="4">
+                  <button class="" onclick="" type="button">+</button>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center">
+                <div>150.000.000</div>
+              </div>
+            </td>
+            <td class="product-remove">
+              <button><i class="far fa-trash-alt"></i></button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </section>
+
+  
   
 
 

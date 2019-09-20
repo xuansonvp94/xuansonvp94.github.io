@@ -93,3 +93,53 @@
 	color: #474644;
 	border: 1px solid #474644;
 }
+
+
+.receipt-2 {
+	display: none;
+}
+
+@media only screen and (max-width: 576px) {
+	.receipt-1 {
+		display: none !important;
+	}
+
+	.receipt-2 {
+		display: block;
+	}
+
+	.quantity .row {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		border: 1px solid #E6E6E6;
+    	width: fit-content;
+	}
+	.quantity button, .quantity input {
+    	width: 1rem;
+    	height: 1rem;
+    	font-size: 8px;
+    	font-weight: bold;
+    	border: 0;
+	}
+
+	.quantity button {
+		background: none;
+	}
+
+	.quantity input {
+		background: #E6E6E6;
+	}
+
+	td.quantity {
+		font-size: 11px;
+		font-weight: bold;
+	}
+
+	/*.img-fluid {
+    	max-width: 50% !important;
+	}*/
+
+	.receipt td {
+    	height: 8rem;
+	}
+}
