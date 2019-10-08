@@ -49,14 +49,12 @@
             crossorigin="anonymous"></script>
 
         <script>
-             let students = []
 
             function renderContent() {
                 $.ajax({
                     url: "https://quan-ly-hoc-vien.herokuapp.com/users",
                     method: "GET"
                 }).done(function (result) {
-                    console.log(result)
                     let cookieID = document.cookie;
                     let id = Number(cookieID.substring(3));
                     students = result;
@@ -96,10 +94,10 @@
             }
 
             function editUser(id) {
-                let name = $("#name").val();
-                let year = $("#yearOfBirth").val();
-                let email = $("#email").val();
-                let phone = $("#phone").val();
+                let name = $('#name').val()
+                let year = $('#yearOfBirth').val()
+                let email = $('#email').val()
+                let phone = $('#phone').val()
                 let isLoading = true;
                 loading(isLoading);
                 $.ajax({
@@ -115,7 +113,9 @@
                     isLoading = false;
                     loading(isLoading)
                     window.location = 'index.html'
-                })
+                })fail(function () {
+                alert("Cập nhật thông tin không thành công")
+            })
             }
 
             
