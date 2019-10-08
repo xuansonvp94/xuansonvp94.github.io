@@ -94,10 +94,10 @@
             }
 
             function editUser(id) {
-                let name = $('#name').val()
-                let year = $('#yearOfBirth').val()
-                let email = $('#email').val()
-                let phone = $('#phone').val()
+                let name = $("#name").val();
+                let year = $("#yearOfBirth").val();
+                let email = $("#email").val();
+                let phone = $("#phone").val();
                 let isLoading = true;
                 loading(isLoading);
                 $.ajax({
@@ -113,9 +113,7 @@
                     isLoading = false;
                     loading(isLoading)
                     window.location = 'index.html'
-                }).fail(function () {
-                alert("Cập nhật thông tin không thành công")
-            })
+                })
             }
 
             
