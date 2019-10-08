@@ -85,7 +85,7 @@
                                     <label for="phone">Số điện thoại</label>
                                     <input type="text" class="form-control" id="phone" value="${s.phone || ''}">
                                 </div>
-                                <button class="btn btn-primary text-uppercase" onclick="editUser(${s.id})">Lưu</button>
+                                <button class="btn btn-primary text-uppercase" onclick="editUser(${s.id || ''})">Lưu</button>
                                 <a href="index.html" class="btn btn-secondary ml-3 text-uppercase">Quay lại</a>
                             `
                             
