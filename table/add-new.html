@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="file:///C:/Users/son/Desktop/bootstrap/banner.jpgsha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <title>QLSV - Danh sách học viên</title>
+</head>
+
+<body> 
+        <div class="container w-50">
+            <h1 class="text-center m-4">Thêm mới học viên</h1>
+            <form>
+                <div class="form-group">
+                    <label for="name">Họ và tên</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+
+                <div class="form-group">
+                    <label for="yearOfBirth">Năm Sinh</label>
+                    <input type="text" class="form-control" id="yearOfBirth">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Số điện thoại</label>
+                    <input type="text" class="form-control" id="phone">
+                </div>
+                <button class="btn btn-primary text-uppercase" onclick="addNewUser()">Lưu</button>
+                <a href="index.html" class="btn btn-secondary ml-3 text-uppercase">Quay lại</a>
+            </form>
+        </div>
+
+        <div class="contain-load hide">
+            <div class="loader">
+                <div class="spinner-grow text-success" role="status">
+                    <span class="sr-only"></span>
+                </div>
+                <div class="spinner-grow text-danger" role="status">
+                    <span class="sr-only"></span>
+                </div>
+                <div class="spinner-grow text-warning" role="status">
+                    <span class="sr-only"></span>
+                </div>
+            </div>
+        </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    
+    <script>
+        function addNewUser() {
+                let name = $("#name").val();
+                let year = $("#yearOfBirth").val();
+                let email = $("#email").val();
+                let phone = $("#phone").val();
+                let isLoading = true;
+                loading(isLoading);
+                $.ajax({
+                    url: "https://quan-ly-hoc-vien.herokuapp.com/users/",
+                    method: "POST",
+                    data: {
+                        name: name,
+                        birthYear: year,
+                        email: email,
+                        phone: phone
+                    }
+                }).done(function (result) {
+                    isLoading = false;
+                    loading(isLoading)
+                    window.location = 'index.html'
+                })
+            }
+
+            function loading(isLoading) {
+                    if (isLoading) {
+                        $(".contain-load").removeClass("hide");
+                    } else {
+                        $(".contain-load").addClass("hide");
+                    }
+                }
+    </script>
+</body>
+
+</html>
