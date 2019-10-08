@@ -56,6 +56,7 @@
                     url: "https://quan-ly-hoc-vien.herokuapp.com/users",
                     method: "GET"
                 }).done(function (result) {
+                    console.log(result)
                     let cookieID = document.cookie;
                     let id = Number(cookieID.substring(3));
                     students = result;
@@ -84,7 +85,7 @@
                                     <label for="phone">Số điện thoại</label>
                                     <input type="text" class="form-control" id="phone" value="${s.phone || ''}">
                                 </div>
-                                <button class="btn btn-primary text-uppercase" onclick="editUser(${s.id || ''})">Lưu</button>
+                                <button class="btn btn-primary text-uppercase" onclick="editUser(${s.id})">Lưu</button>
                                 <a href="index.html" class="btn btn-secondary ml-3 text-uppercase">Quay lại</a>
                             `
                             
@@ -116,6 +117,15 @@
                     window.location = 'index.html'
                 })
             }
+
+            
+            function loading(isLoading) {
+                    if (isLoading) {
+                        $(".contain-load").removeClass("hide");
+                    } else {
+                        $(".contain-load").addClass("hide");
+                    }
+                }
 
             $(function () {
                     renderContent();
