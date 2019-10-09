@@ -66,24 +66,24 @@
                             htmlContent += `
                                 <div class="form-group">
                                     <label for="name">Họ và tên</label>
-                                    <input type="text" class="form-control" id="name" value="${s.name || ''}">
+                                    <input type="text" class="form-control" id="name" value="${s.name || ' '}">
                                 </div>
 
                                 <div class="form-group">
                                     <label for="yearOfBirth">Năm Sinh</label>
-                                    <input type="text" class="form-control" id="yearOfBirth" value="${s.birthYear || ''}">
+                                    <input type="text" class="form-control" id="yearOfBirth" value="${s.birthYear || ' '}">
                                 </div>
                     
                                 <div class="form-group">
                                     <label for="email">Email</label>
-                                    <input type="email" class="form-control" id="email" value="${s.email || ''}">
+                                    <input type="email" class="form-control" id="email" value="${s.email || ' '}">
                                 </div>
                     
                                 <div class="form-group">
                                     <label for="phone">Số điện thoại</label>
-                                    <input type="text" class="form-control" id="phone" value="${s.phone || ''}">
+                                    <input type="text" class="form-control" id="phone" value="${s.phone || ' '}">
                                 </div>
-                                <button class="btn btn-primary text-uppercase" onclick="editUser(${s.id || ''})">Lưu</button>
+                                <button class="btn btn-primary text-uppercase" onclick="editUser(${s.id || ' '})">Lưu</button>
                                 <a href="index.html" class="btn btn-secondary ml-3 text-uppercase">Quay lại</a>
                             `
                             
