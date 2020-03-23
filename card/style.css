@@ -55,21 +55,21 @@ font-family: 'Mr Dafoe', cursive;
 		position: absolute;
     	font-size: 202px;
     	bottom: -150px;
-    	right: 53px;
+   
 	}
 
 	80%{
 		position: absolute;
     	font-size: 202px;
     	bottom: -150px;
-    	right: 53px;
+  
 	}
 
 	100% {
 		position: absolute;
     	font-size: 202px;
     	bottom: -15px;
-    	right: 53px;
+   
 	}
 }
 
@@ -78,19 +78,19 @@ font-family: 'Mr Dafoe', cursive;
 		position: absolute;
     	font-size: 50px;
     	bottom: -68px;
-    	right: 24px;
+    	
 	}
 	80%{
 		position: absolute;
    	 	font-size: 50px;
    	 	bottom: -68px;
-   	 	right: 24px;
+   	 
 	}
 	100%{
 		position: absolute;
     	font-size: 50px;
     	bottom: 67px;
-    	right: 24px;
+    
 	}
 }
 
@@ -179,7 +179,7 @@ font-family: 'Mr Dafoe', cursive;
 	position: absolute;
     font-size: 202px;
     bottom: -15px;
-    right: 53px;
+    right: 35px;
    	animation: day 6.5s ease-in-out; 
 }
 
@@ -187,7 +187,7 @@ font-family: 'Mr Dafoe', cursive;
 	position: absolute;
     font-size: 50px;
     bottom: 67px;
-    right: 24px;
+    right: 3px;
     animation: th 6.5s ease-in-out; 
 }
 
