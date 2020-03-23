@@ -178,7 +178,7 @@ font-family: 'Mr Dafoe', cursive;
 #day{
 	position: absolute;
     font-size: 202px;
-    bottom: -15px;
+    bottom: -18px;
     right: 35px;
    	animation: day 6.5s ease-in-out; 
 }
